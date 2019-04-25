@@ -1,0 +1,443 @@
+{
+  "meta": {
+    "id": "68DAFE1E8BCC406EB229D7BB999B5BC7",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-24T23:59:11.653+02:00",
+    "sequence": 118
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "928012183226",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "V2180",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "335.4",
+                "endeprozent": "76",
+                "startmeter": "319",
+                "startprozent": "72"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "928012183226",
+          "zielbetriebsstellename": "Itzehoe",
+          "startbetriebsstellename": "Westerland(Sylt)",
+          "verkehrlichezugnummer": "2375"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "928012183804",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "V2180",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "319",
+                "endeprozent": "72",
+                "startmeter": "302.6",
+                "startprozent": "68"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "928012183804",
+          "zielbetriebsstellename": "Itzehoe",
+          "startbetriebsstellename": "Westerland(Sylt)",
+          "verkehrlichezugnummer": "2375"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "16",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "STEUERWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618080911026",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Bpmmbdzf",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "302.6",
+                "endeprozent": "68",
+                "startmeter": "276.2",
+                "startprozent": "62"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618019952620",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Avmz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "276.2",
+                "endeprozent": "62",
+                "startmeter": "249.8",
+                "startprozent": "56"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEZWEITEKLASSE",
+              "fahrzeugnummer": "618039950604",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "ABvmz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "249.8",
+                "endeprozent": "56",
+                "startmeter": "223.4",
+                "startprozent": "50"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618021948582",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bvmsz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "223.4",
+                "endeprozent": "50",
+                "startmeter": "197",
+                "startprozent": "44"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020944764",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "197",
+                "endeprozent": "44",
+                "startmeter": "170.6",
+                "startprozent": "38"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020952247",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "170.6",
+                "endeprozent": "38",
+                "startmeter": "144.2",
+                "startprozent": "33"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020952387",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "7",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "144.2",
+                "endeprozent": "33",
+                "startmeter": "117.8",
+                "startprozent": "27"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "RPF170007",
+          "zielbetriebsstellename": "Karlsruhe Hbf",
+          "startbetriebsstellename": "Westerland(Sylt)",
+          "verkehrlichezugnummer": "2375"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "BISTRO",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "HALBSPEISEWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618085944246",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "ARkimmbz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "117.8",
+                "endeprozent": "27",
+                "startmeter": "91.4",
+                "startprozent": "21"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "RPF471502",
+          "zielbetriebsstellename": "Karlsruhe Hbf",
+          "startbetriebsstellename": "Westerland(Sylt)",
+          "verkehrlichezugnummer": "2375"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618029946018",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bpmbz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "91.4",
+                "endeprozent": "21",
+                "startmeter": "65",
+                "startprozent": "15"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "16",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618084952059",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Bpmmdz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "65",
+                "endeprozent": "15",
+                "startmeter": "38.6",
+                "startprozent": "9"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "RPF471303",
+          "zielbetriebsstellename": "Karlsruhe Hbf",
+          "startbetriebsstellename": "Westerland(Sylt)",
+          "verkehrlichezugnummer": "2375"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T12:12:00",
+        "ankunftszeit": "2019-04-25T11:55:00",
+        "bahnhofsname": "Husum",
+        "evanummer": "8000181",
+        "gleisbezeichnung": "5",
+        "haltid": "AHM",
+        "rl100": "AHM",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "54.45",
+              "endeprozent": "12",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "E"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "139.55",
+              "endeprozent": "31",
+              "startmeter": "54.45",
+              "startprozent": "12"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "219.55",
+              "endeprozent": "50",
+              "startmeter": "139.55",
+              "startprozent": "31"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "287.1",
+              "endeprozent": "65",
+              "startmeter": "219.55",
+              "startprozent": "50"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "443.3",
+              "endeprozent": "100",
+              "startmeter": "287.1",
+              "startprozent": "65"
+            },
+            "sektorbezeichnung": "A"
+          }
+        ]
+      },
+      "liniebezeichnung": "26",
+      "zuggattung": "IC",
+      "zugnummer": "2375",
+      "serviceid": "10089504809",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

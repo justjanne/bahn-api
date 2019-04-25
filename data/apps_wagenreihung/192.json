@@ -1,0 +1,452 @@
+{
+  "meta": {
+    "id": "26B6E2DB39094827B7E03BF9A681BCCA",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-24T22:00:03.057+02:00",
+    "sequence": 81
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "918061010859",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "E1010",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "19.2",
+                "endeprozent": "5",
+                "startmeter": "0.1",
+                "startprozent": "0"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "918061010859",
+          "zielbetriebsstellename": "Basel SBB",
+          "startbetriebsstellename": "Kiel Hbf",
+          "verkehrlichezugnummer": "209"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618018901891",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Apmmz",
+              "wagenordnungsnummer": "14",
+              "positionamhalt": {
+                "endemeter": "45.6",
+                "endeprozent": "11",
+                "startmeter": "19.2",
+                "startprozent": "5"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618019911840",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Avmmz",
+              "wagenordnungsnummer": "12",
+              "positionamhalt": {
+                "endemeter": "72",
+                "endeprozent": "17",
+                "startmeter": "45.6",
+                "startprozent": "11"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "BISTRO",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "HALBSPEISEWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618085944915",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "ARkimmbz",
+              "wagenordnungsnummer": "11",
+              "positionamhalt": {
+                "endemeter": "98.4",
+                "endeprozent": "23",
+                "startmeter": "72",
+                "startprozent": "17"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618021909170",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bvmmsz",
+              "wagenordnungsnummer": "10",
+              "positionamhalt": {
+                "endemeter": "124.8",
+                "endeprozent": "30",
+                "startmeter": "98.4",
+                "startprozent": "23"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020944087",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "9",
+              "positionamhalt": {
+                "endemeter": "151.2",
+                "endeprozent": "36",
+                "startmeter": "124.8",
+                "startprozent": "30"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020944780",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "8",
+              "positionamhalt": {
+                "endemeter": "177.6",
+                "endeprozent": "42",
+                "startmeter": "151.2",
+                "startprozent": "36"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020944368",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "7",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "7",
+              "positionamhalt": {
+                "endemeter": "204",
+                "endeprozent": "49",
+                "startmeter": "177.6",
+                "startprozent": "42"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020944285",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "8",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "6",
+              "positionamhalt": {
+                "endemeter": "230.4",
+                "endeprozent": "55",
+                "startmeter": "204",
+                "startprozent": "49"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "7",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618084911014",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "9",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Bpmmbdz",
+              "wagenordnungsnummer": "5",
+              "positionamhalt": {
+                "endemeter": "256.8",
+                "endeprozent": "61",
+                "startmeter": "230.4",
+                "startprozent": "55"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "RPF155006",
+          "zielbetriebsstellename": "Basel SBB",
+          "startbetriebsstellename": "Kiel Hbf",
+          "verkehrlichezugnummer": "209"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020954466",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "4",
+              "positionamhalt": {
+                "endemeter": "283.2",
+                "endeprozent": "67",
+                "startmeter": "256.8",
+                "startprozent": "61"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "16",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "STEUERWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618080911554",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "F",
+              "fahrzeugtyp": "Bpmmbdzf",
+              "wagenordnungsnummer": "3",
+              "positionamhalt": {
+                "endemeter": "309.6",
+                "endeprozent": "74",
+                "startmeter": "283.2",
+                "startprozent": "67"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "RPF155206",
+          "zielbetriebsstellename": "Basel SBB",
+          "startbetriebsstellename": "Kiel Hbf",
+          "verkehrlichezugnummer": "209"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T19:38:00",
+        "ankunftszeit": "2019-04-25T19:37:00",
+        "bahnhofsname": "Hamburg Dammtor",
+        "evanummer": "8002548",
+        "gleisbezeichnung": "4",
+        "haltid": "ADF",
+        "rl100": "ADF",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "93",
+              "endeprozent": "22",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "A"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "140",
+              "endeprozent": "33",
+              "startmeter": "93",
+              "startprozent": "22"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "192.5",
+              "endeprozent": "46",
+              "startmeter": "140",
+              "startprozent": "33"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "242.5",
+              "endeprozent": "58",
+              "startmeter": "192.5",
+              "startprozent": "46"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "292.5",
+              "endeprozent": "70",
+              "startmeter": "242.5",
+              "startprozent": "58"
+            },
+            "sektorbezeichnung": "E"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "346",
+              "endeprozent": "82",
+              "startmeter": "292.5",
+              "startprozent": "70"
+            },
+            "sektorbezeichnung": "F"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "420",
+              "endeprozent": "100",
+              "startmeter": "346",
+              "startprozent": "82"
+            },
+            "sektorbezeichnung": "G"
+          }
+        ]
+      },
+      "liniebezeichnung": "31",
+      "zuggattung": "IC",
+      "zugnummer": "209",
+      "serviceid": "1009235163",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

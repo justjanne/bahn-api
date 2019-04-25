@@ -1,0 +1,443 @@
+{
+  "meta": {
+    "id": "ACCB31B367B242668D6F7A4CB6C95D13",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-25T05:07:13.494+02:00",
+    "sequence": 171
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "16",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "STEUERWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618080911349",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Bpmmbdzf",
+              "wagenordnungsnummer": "3",
+              "positionamhalt": {
+                "endemeter": "364.75",
+                "endeprozent": "94",
+                "startmeter": "338.35",
+                "startprozent": "87"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020944715",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "4",
+              "positionamhalt": {
+                "endemeter": "338.35",
+                "endeprozent": "87",
+                "startmeter": "311.95",
+                "startprozent": "80"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "RPF155222",
+          "zielbetriebsstellename": "Hamburg-Altona",
+          "startbetriebsstellename": "Nürnberg Hbf",
+          "verkehrlichezugnummer": "2028"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "7",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618084940120",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bpmmbdz",
+              "wagenordnungsnummer": "5",
+              "positionamhalt": {
+                "endemeter": "311.95",
+                "endeprozent": "80",
+                "startmeter": "285.55",
+                "startprozent": "74"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020954573",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "6",
+              "positionamhalt": {
+                "endemeter": "285.55",
+                "endeprozent": "74",
+                "startmeter": "259.15",
+                "startprozent": "67"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020944749",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "7",
+              "positionamhalt": {
+                "endemeter": "259.15",
+                "endeprozent": "67",
+                "startmeter": "232.75",
+                "startprozent": "60"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020944558",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "8",
+              "positionamhalt": {
+                "endemeter": "232.75",
+                "endeprozent": "60",
+                "startmeter": "206.35",
+                "startprozent": "53"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020954128",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "9",
+              "positionamhalt": {
+                "endemeter": "206.35",
+                "endeprozent": "53",
+                "startmeter": "179.95",
+                "startprozent": "46"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618021909279",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bvmmsz",
+              "wagenordnungsnummer": "10",
+              "positionamhalt": {
+                "endemeter": "179.95",
+                "endeprozent": "46",
+                "startmeter": "153.55",
+                "startprozent": "40"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "BISTRO",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "HALBSPEISEWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618085944790",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "7",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "ARkimmbz",
+              "wagenordnungsnummer": "11",
+              "positionamhalt": {
+                "endemeter": "153.55",
+                "endeprozent": "40",
+                "startmeter": "127.15",
+                "startprozent": "33"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618019911261",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "8",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Avmmz",
+              "wagenordnungsnummer": "12",
+              "positionamhalt": {
+                "endemeter": "127.15",
+                "endeprozent": "33",
+                "startmeter": "100.75",
+                "startprozent": "26"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618018901925",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "9",
+              "fahrzeugsektor": "F",
+              "fahrzeugtyp": "Apmmz",
+              "wagenordnungsnummer": "14",
+              "positionamhalt": {
+                "endemeter": "100.75",
+                "endeprozent": "26",
+                "startmeter": "74.35",
+                "startprozent": "19"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "RPF155022",
+          "zielbetriebsstellename": "Hamburg-Altona",
+          "startbetriebsstellename": "Nürnberg Hbf",
+          "verkehrlichezugnummer": "2028"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "918061010149",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "F",
+              "fahrzeugtyp": "E1010",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "74.35",
+                "endeprozent": "19",
+                "startmeter": "55.25",
+                "startprozent": "14"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "918061010149",
+          "zielbetriebsstellename": "Hamburg-Altona",
+          "startbetriebsstellename": "Nürnberg Hbf",
+          "verkehrlichezugnummer": "2028"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T10:43:00",
+        "ankunftszeit": "2019-04-25T10:41:00",
+        "bahnhofsname": "Wuppertal Hbf",
+        "evanummer": "8000266",
+        "gleisbezeichnung": "2",
+        "haltid": "KW",
+        "rl100": "KW",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "90",
+              "endeprozent": "23",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "F"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "150",
+              "endeprozent": "39",
+              "startmeter": "90",
+              "startprozent": "23"
+            },
+            "sektorbezeichnung": "E"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "210",
+              "endeprozent": "54",
+              "startmeter": "150",
+              "startprozent": "39"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "270",
+              "endeprozent": "70",
+              "startmeter": "210",
+              "startprozent": "54"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "330",
+              "endeprozent": "85",
+              "startmeter": "270",
+              "startprozent": "70"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "388",
+              "endeprozent": "100",
+              "startmeter": "330",
+              "startprozent": "85"
+            },
+            "sektorbezeichnung": "A"
+          }
+        ]
+      },
+      "liniebezeichnung": "",
+      "zuggattung": "IC",
+      "zugnummer": "2028",
+      "serviceid": "8378446502",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

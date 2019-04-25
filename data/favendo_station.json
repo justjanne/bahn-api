@@ -1,0 +1,135 @@
+[
+  {
+    "type": "station_search",
+    "id": 2514,
+    "title": "Hamburg Hbf",
+    "eva_ids": [
+      "8002549",
+      "8098549"
+    ],
+    "distanceInKm": 0.0,
+    "location": [
+      10.006909,
+      53.552736
+    ]
+  },
+  {
+    "type": "station_search",
+    "id": 2517,
+    "title": "Hamburg-Altona",
+    "eva_ids": [
+      "8002553",
+      "8098553"
+    ],
+    "distanceInKm": 0.0,
+    "location": [
+      9.934554,
+      53.551855
+    ]
+  },
+  {
+    "type": "station_search",
+    "id": 2513,
+    "title": "Hamburg Dammtor",
+    "eva_ids": [
+      "8002548"
+    ],
+    "distanceInKm": 0.0,
+    "location": [
+      9.989566,
+      53.560751
+    ]
+  },
+  {
+    "type": "station_search",
+    "id": 2519,
+    "title": "Hamburg-Harburg",
+    "eva_ids": [
+      "8000147",
+      "8098147"
+    ],
+    "distanceInKm": 0.0,
+    "location": [
+      9.991701,
+      53.455908
+    ]
+  },
+  {
+    "type": "station_search",
+    "id": 2518,
+    "title": "Hamburg-Bergedorf",
+    "eva_ids": [
+      "8002554"
+    ],
+    "distanceInKm": 0.0,
+    "location": [
+      10.206171,
+      53.489832
+    ]
+  },
+  {
+    "type": "station_search",
+    "id": 2520,
+    "title": "Hamburg-Neugraben",
+    "eva_ids": [
+      "8002557"
+    ],
+    "distanceInKm": 0.0,
+    "location": [
+      9.852048,
+      53.474143
+    ]
+  },
+  {
+    "type": "station_search",
+    "id": 2458,
+    "title": "Hamburg Airport (Flughafen)",
+    "eva_ids": [
+      "8002547"
+    ],
+    "distanceInKm": 0.0,
+    "location": [
+      10.006646,
+      53.63235
+    ]
+  },
+  {
+    "type": "station_search",
+    "id": 2521,
+    "title": "Hamburg-Rahlstedt",
+    "eva_ids": [
+      "8002558"
+    ],
+    "distanceInKm": 0.0,
+    "location": [
+      10.154396,
+      53.604857
+    ]
+  },
+  {
+    "type": "station_search",
+    "id": 2522,
+    "title": "Hamburg-Wandsbek",
+    "eva_ids": [
+      "8002560"
+    ],
+    "distanceInKm": 0.0,
+    "location": [
+      10.077224,
+      53.569971
+    ]
+  },
+  {
+    "type": "station_search",
+    "id": 6529,
+    "title": "Hamburg-Tonndorf",
+    "eva_ids": [
+      "8006197"
+    ],
+    "distanceInKm": 0.0,
+    "location": [
+      10.12305,
+      53.586385
+    ]
+  }
+]

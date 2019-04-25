@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "id": "1C74E1AC71D8417DB17EDAF1D30D7100",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-25T08:43:46.191+02:00",
+    "sequence": 28
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "Lok_151",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "E",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Lok_151",
+          "zielbetriebsstellename": "Milano Centrale",
+          "startbetriebsstellename": "Frankfurt(Main)Hbf",
+          "verkehrlichezugnummer": "151"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Bpmt",
+              "wagenordnungsnummer": "7",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Bp",
+              "wagenordnungsnummer": "6",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Bep",
+              "wagenordnungsnummer": "5",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Bep",
+              "wagenordnungsnummer": "4",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "SPEISEWAGEN",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "WRaep",
+              "wagenordnungsnummer": "3",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Ap",
+              "wagenordnungsnummer": "2",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "7",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Apmt",
+              "wagenordnungsnummer": "1",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Zug_151_EC_1_7",
+          "zielbetriebsstellename": "Milano Centrale",
+          "startbetriebsstellename": "Frankfurt(Main)Hbf",
+          "verkehrlichezugnummer": "151"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T12:50:00",
+        "ankunftszeit": "2019-04-25T12:46:00",
+        "bahnhofsname": "Arth-Goldau",
+        "evanummer": "8505004",
+        "gleisbezeichnung": "5",
+        "haltid": "XSAG",
+        "rl100": "XSAG",
+        "allSektor": []
+      },
+      "liniebezeichnung": "",
+      "zuggattung": "EC",
+      "zugnummer": "151",
+      "serviceid": "764632858",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": false
+    }
+  }
+}

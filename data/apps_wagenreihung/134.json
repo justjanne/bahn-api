@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "id": "65912500D06541C699BFECC687B3CFF2",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-24T22:00:09.11+02:00",
+    "sequence": 173
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "STEUERWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "938058080087",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "G",
+              "fahrzeugtyp": "Bpmzf",
+              "wagenordnungsnummer": "21",
+              "positionamhalt": {
+                "endemeter": "26.6",
+                "endeprozent": "6",
+                "startmeter": "0.2",
+                "startprozent": "0"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "938058066417",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "G",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "22",
+              "positionamhalt": {
+                "endemeter": "53",
+                "endeprozent": "13",
+                "startmeter": "26.6",
+                "startprozent": "6"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "938058063117",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "G",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "23",
+              "positionamhalt": {
+                "endemeter": "79.4",
+                "endeprozent": "19",
+                "startmeter": "53",
+                "startprozent": "13"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "938058060113",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "F",
+              "fahrzeugtyp": "Bpmbz",
+              "wagenordnungsnummer": "24",
+              "positionamhalt": {
+                "endemeter": "105.8",
+                "endeprozent": "25",
+                "startmeter": "79.4",
+                "startprozent": "19"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "SPEISEWAGEN",
+              "fahrzeugnummer": "938058070054",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "F",
+              "fahrzeugtyp": "WRmbsz",
+              "wagenordnungsnummer": "25",
+              "positionamhalt": {
+                "endemeter": "132.2",
+                "endeprozent": "32",
+                "startmeter": "105.8",
+                "startprozent": "25"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "938058050080",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Apmz",
+              "wagenordnungsnummer": "26",
+              "positionamhalt": {
+                "endemeter": "158.6",
+                "endeprozent": "38",
+                "startmeter": "132.2",
+                "startprozent": "32"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "938058053084",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "7",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Apmz",
+              "wagenordnungsnummer": "27",
+              "positionamhalt": {
+                "endemeter": "185",
+                "endeprozent": "44",
+                "startmeter": "158.6",
+                "startprozent": "38"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "TRIEBKOPF",
+              "fahrzeugnummer": "938054020087",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "8",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "I4020",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "205.56",
+                "endeprozent": "49",
+                "startmeter": "185",
+                "startprozent": "44"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "ICE0208",
+          "zielbetriebsstellename": "Köln Hbf",
+          "startbetriebsstellename": "Berlin Ostbahnhof",
+          "verkehrlichezugnummer": "848"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "STEUERWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "938058080152",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bpmzf",
+              "wagenordnungsnummer": "31",
+              "positionamhalt": {
+                "endemeter": "231.96",
+                "endeprozent": "55",
+                "startmeter": "205.56",
+                "startprozent": "49"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "938058066300",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "32",
+              "positionamhalt": {
+                "endemeter": "258.36",
+                "endeprozent": "62",
+                "startmeter": "231.96",
+                "startprozent": "55"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "938058063414",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "33",
+              "positionamhalt": {
+                "endemeter": "284.76",
+                "endeprozent": "68",
+                "startmeter": "258.36",
+                "startprozent": "62"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "938058060410",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bpmbz",
+              "wagenordnungsnummer": "34",
+              "positionamhalt": {
+                "endemeter": "311.16",
+                "endeprozent": "74",
+                "startmeter": "284.76",
+                "startprozent": "68"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "SPEISEWAGEN",
+              "fahrzeugnummer": "938058070443",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "WRmbsz",
+              "wagenordnungsnummer": "35",
+              "positionamhalt": {
+                "endemeter": "337.56",
+                "endeprozent": "81",
+                "startmeter": "311.16",
+                "startprozent": "74"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "938058050122",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Apmz",
+              "wagenordnungsnummer": "36",
+              "positionamhalt": {
+                "endemeter": "363.96",
+                "endeprozent": "87",
+                "startmeter": "337.56",
+                "startprozent": "81"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "938058053423",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "7",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Apmz",
+              "wagenordnungsnummer": "37",
+              "positionamhalt": {
+                "endemeter": "390.36",
+                "endeprozent": "93",
+                "startmeter": "363.96",
+                "startprozent": "87"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "TRIEBKOPF",
+              "fahrzeugnummer": "938054020376",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "8",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "I4020",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "410.92",
+                "endeprozent": "98",
+                "startmeter": "390.36",
+                "startprozent": "93"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "ICE0215",
+          "zielbetriebsstellename": "Düsseldorf Hbf",
+          "startbetriebsstellename": "Berlin Ostbahnhof",
+          "verkehrlichezugnummer": "848"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T15:31:00",
+        "ankunftszeit": "2019-04-25T15:28:00",
+        "bahnhofsname": "Hannover Hbf",
+        "evanummer": "8000152",
+        "gleisbezeichnung": "12",
+        "haltid": "HH",
+        "rl100": "HH",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "85.4",
+              "endeprozent": "20",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "G"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "130.3",
+              "endeprozent": "31",
+              "startmeter": "85.4",
+              "startprozent": "20"
+            },
+            "sektorbezeichnung": "F"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "182.75",
+              "endeprozent": "44",
+              "startmeter": "130.3",
+              "startprozent": "31"
+            },
+            "sektorbezeichnung": "E"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "241.7",
+              "endeprozent": "58",
+              "startmeter": "182.75",
+              "startprozent": "44"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "293.15",
+              "endeprozent": "70",
+              "startmeter": "241.7",
+              "startprozent": "58"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "345.5",
+              "endeprozent": "83",
+              "startmeter": "293.15",
+              "startprozent": "70"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "418.2",
+              "endeprozent": "100",
+              "startmeter": "345.5",
+              "startprozent": "83"
+            },
+            "sektorbezeichnung": "A"
+          }
+        ]
+      },
+      "liniebezeichnung": "10",
+      "zuggattung": "ICE",
+      "zugnummer": "848",
+      "serviceid": "3697961400",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<wing-def>
+  <start eva="8000124" fl="false" pt="1904242031" st-name="Gie&#xDF;en"/>
+  <end eva="8000105" fl="true" pt="1904242127" st-name="Frankfurt(Main)Hbf"/>
+</wing-def>

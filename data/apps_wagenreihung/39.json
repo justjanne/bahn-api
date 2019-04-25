@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "id": "8CCC2485A783440A802C9B09791FCE1C",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-24T22:00:00.71+02:00",
+    "sequence": 15
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "Lok_113",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "E",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "275.8",
+                "endeprozent": "82",
+                "startmeter": "255.8",
+                "startprozent": "76"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Lok_113",
+          "zielbetriebsstellename": "Klagenfurt Hbf",
+          "startbetriebsstellename": "Frankfurt(Main)Hbf",
+          "verkehrlichezugnummer": "113"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "273",
+              "positionamhalt": {
+                "endemeter": "255.8",
+                "endeprozent": "76",
+                "startmeter": "229.6",
+                "startprozent": "68"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bvmz",
+              "wagenordnungsnummer": "274",
+              "positionamhalt": {
+                "endemeter": "229.6",
+                "endeprozent": "68",
+                "startmeter": "203.4",
+                "startprozent": "60"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Avmz",
+              "wagenordnungsnummer": "275",
+              "positionamhalt": {
+                "endemeter": "203.4",
+                "endeprozent": "60",
+                "startmeter": "177.2",
+                "startprozent": "52"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Zug_113_EC_273_275",
+          "zielbetriebsstellename": "Villach Hbf",
+          "startbetriebsstellename": "Frankfurt(Main)Hbf",
+          "verkehrlichezugnummer": "113"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "ADbmpsz",
+              "wagenordnungsnummer": "262",
+              "positionamhalt": {
+                "endemeter": "177.2",
+                "endeprozent": "52",
+                "startmeter": "151",
+                "startprozent": "45"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "SPEISEWAGEN",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "WRmz",
+              "wagenordnungsnummer": "261",
+              "positionamhalt": {
+                "endemeter": "151",
+                "endeprozent": "45",
+                "startmeter": "124.8",
+                "startprozent": "37"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bvmz",
+              "wagenordnungsnummer": "260",
+              "positionamhalt": {
+                "endemeter": "124.8",
+                "endeprozent": "37",
+                "startmeter": "98.6",
+                "startprozent": "29"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "259",
+              "positionamhalt": {
+                "endemeter": "98.6",
+                "endeprozent": "29",
+                "startmeter": "72.4",
+                "startprozent": "21"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "258",
+              "positionamhalt": {
+                "endemeter": "72.4",
+                "endeprozent": "21",
+                "startmeter": "46.2",
+                "startprozent": "14"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "257",
+              "positionamhalt": {
+                "endemeter": "46.2",
+                "endeprozent": "14",
+                "startmeter": "20",
+                "startprozent": "6"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Zug_113_EC_257_262",
+          "zielbetriebsstellename": "Klagenfurt Hbf",
+          "startbetriebsstellename": "Frankfurt(Main)Hbf",
+          "verkehrlichezugnummer": "113"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T08:20:00",
+        "ankunftszeit": "",
+        "bahnhofsname": "Frankfurt(Main)Hbf",
+        "evanummer": "8000105",
+        "gleisbezeichnung": "10",
+        "haltid": "FF",
+        "rl100": "FF",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "79.85",
+              "endeprozent": "24",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "A"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "135.725",
+              "endeprozent": "40",
+              "startmeter": "79.85",
+              "startprozent": "24"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "199.7",
+              "endeprozent": "59",
+              "startmeter": "135.725",
+              "startprozent": "40"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "258.275",
+              "endeprozent": "76",
+              "startmeter": "199.7",
+              "startprozent": "59"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "338.4",
+              "endeprozent": "100",
+              "startmeter": "258.275",
+              "startprozent": "76"
+            },
+            "sektorbezeichnung": "E"
+          }
+        ]
+      },
+      "liniebezeichnung": "62",
+      "zuggattung": "EC",
+      "zugnummer": "113",
+      "serviceid": "465511063",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

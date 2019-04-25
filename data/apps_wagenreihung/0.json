@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "id": "FDA8B8DD45044D5CA5F6B5A77B936526",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-23T22:00:03.693+02:00",
+    "sequence": 14
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "Lok_190",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "E",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Lok_190",
+          "zielbetriebsstellename": "Basel SBB",
+          "startbetriebsstellename": "Lindau Hbf",
+          "verkehrlichezugnummer": "190"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "307",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "306",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "305",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "SPEISEWAGEN",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "WRmz",
+              "wagenordnungsnummer": "304",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Apmz",
+              "wagenordnungsnummer": "303",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Apmz",
+              "wagenordnungsnummer": "302",
+              "positionamhalt": {
+                "endemeter": "",
+                "endeprozent": "",
+                "startmeter": "",
+                "startprozent": ""
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Zug_190_EC_302_307",
+          "zielbetriebsstellename": "Basel SBB",
+          "startbetriebsstellename": "Lindau Hbf",
+          "verkehrlichezugnummer": "190"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-24T23:08:00",
+        "ankunftszeit": "2019-04-24T22:58:00",
+        "bahnhofsname": "Zürich HB",
+        "evanummer": "8503000",
+        "gleisbezeichnung": "15",
+        "haltid": "XSZH",
+        "rl100": "XSZH",
+        "allSektor": []
+      },
+      "liniebezeichnung": "88",
+      "zuggattung": "EC",
+      "zugnummer": "190",
+      "serviceid": "667283737",
+      "planstarttag": "2019-04-24",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

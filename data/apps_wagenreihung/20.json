@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "id": "DBAEC27401A74DF79E7D1883870A90C1",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-25T02:34:06.867+02:00",
+    "sequence": 51
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "Lok_240",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "E",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "140.9",
+                "endeprozent": "33",
+                "startmeter": "120.9",
+                "startprozent": "28"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Lok_240",
+          "zielbetriebsstellename": "Amsterdam Centraal",
+          "startbetriebsstellename": "Berlin Ostbahnhof",
+          "verkehrlichezugnummer": "240"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618019917300",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Avmmz",
+              "wagenordnungsnummer": "12",
+              "positionamhalt": {
+                "endemeter": "167.3",
+                "endeprozent": "39",
+                "startmeter": "140.9",
+                "startprozent": "33"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "BISTRO",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "HALBSPEISEWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618085915147",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "ARkimmbz",
+              "wagenordnungsnummer": "11",
+              "positionamhalt": {
+                "endemeter": "193.7",
+                "endeprozent": "45",
+                "startmeter": "167.3",
+                "startprozent": "39"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618021909097",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bvmmsz",
+              "wagenordnungsnummer": "10",
+              "positionamhalt": {
+                "endemeter": "220.1",
+                "endeprozent": "52",
+                "startmeter": "193.7",
+                "startprozent": "45"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618029913117",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bpmmbz",
+              "wagenordnungsnummer": "9",
+              "positionamhalt": {
+                "endemeter": "246.5",
+                "endeprozent": "58",
+                "startmeter": "220.1",
+                "startprozent": "52"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020915004",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "8",
+              "positionamhalt": {
+                "endemeter": "272.9",
+                "endeprozent": "64",
+                "startmeter": "246.5",
+                "startprozent": "58"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020915269",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "7",
+              "positionamhalt": {
+                "endemeter": "299.3",
+                "endeprozent": "70",
+                "startmeter": "272.9",
+                "startprozent": "64"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020915384",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "7",
+              "fahrzeugsektor": "F",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "6",
+              "positionamhalt": {
+                "endemeter": "325.7",
+                "endeprozent": "76",
+                "startmeter": "299.3",
+                "startprozent": "70"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020915632",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "8",
+              "fahrzeugsektor": "F",
+              "fahrzeugtyp": "Bpmmz",
+              "wagenordnungsnummer": "5",
+              "positionamhalt": {
+                "endemeter": "352.1",
+                "endeprozent": "82",
+                "startmeter": "325.7",
+                "startprozent": "76"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "16",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618084919132",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "9",
+              "fahrzeugsektor": "G",
+              "fahrzeugtyp": "Bpmmdz",
+              "wagenordnungsnummer": "4",
+              "positionamhalt": {
+                "endemeter": "378.5",
+                "endeprozent": "89",
+                "startmeter": "352.1",
+                "startprozent": "82"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "RPF280604",
+          "zielbetriebsstellename": "Amsterdam Centraal",
+          "startbetriebsstellename": "Berlin Ostbahnhof",
+          "verkehrlichezugnummer": "240"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T06:23:00",
+        "ankunftszeit": "",
+        "bahnhofsname": "Berlin Ostbahnhof",
+        "evanummer": "8010255",
+        "gleisbezeichnung": "3",
+        "haltid": "BHF",
+        "rl100": "BHF",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "87.45",
+              "endeprozent": "20",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "A"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "141.5",
+              "endeprozent": "33",
+              "startmeter": "87.45",
+              "startprozent": "20"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "187.8",
+              "endeprozent": "44",
+              "startmeter": "141.5",
+              "startprozent": "33"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "240.1",
+              "endeprozent": "56",
+              "startmeter": "187.8",
+              "startprozent": "44"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "295.65",
+              "endeprozent": "69",
+              "startmeter": "240.1",
+              "startprozent": "56"
+            },
+            "sektorbezeichnung": "E"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "342",
+              "endeprozent": "80",
+              "startmeter": "295.65",
+              "startprozent": "69"
+            },
+            "sektorbezeichnung": "F"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "426.8",
+              "endeprozent": "100",
+              "startmeter": "342",
+              "startprozent": "80"
+            },
+            "sektorbezeichnung": "G"
+          }
+        ]
+      },
+      "liniebezeichnung": "77",
+      "zuggattung": "IC",
+      "zugnummer": "240",
+      "serviceid": "994631449",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

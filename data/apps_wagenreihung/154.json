@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "id": "E5049D3E6DAD4246A7CB96E865899663",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-24T22:00:04.513+02:00",
+    "sequence": 47
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "918061465525",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "E1465",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "100.7",
+                "endeprozent": "18",
+                "startmeter": "81.8",
+                "startprozent": "15"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "DOPPELSTOCKWAGENERSTEKLASSE",
+              "fahrzeugnummer": "508016811624",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "DApza",
+              "wagenordnungsnummer": "5",
+              "positionamhalt": {
+                "endemeter": "127.5",
+                "endeprozent": "23",
+                "startmeter": "100.7",
+                "startprozent": "18"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "1",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "DOPPELSTOCKWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "508026814287",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "DBpza",
+              "wagenordnungsnummer": "4",
+              "positionamhalt": {
+                "endemeter": "154.3",
+                "endeprozent": "28",
+                "startmeter": "127.5",
+                "startprozent": "23"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "1",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "DOPPELSTOCKWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "508026814204",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "DBpza",
+              "wagenordnungsnummer": "3",
+              "positionamhalt": {
+                "endemeter": "181.1",
+                "endeprozent": "33",
+                "startmeter": "154.3",
+                "startprozent": "28"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "1",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "DOPPELSTOCKWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "508026814238",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "DBpza",
+              "wagenordnungsnummer": "2",
+              "positionamhalt": {
+                "endemeter": "207.9",
+                "endeprozent": "38",
+                "startmeter": "181.1",
+                "startprozent": "33"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "6",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "DOPPELSTOCKSTEUERWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "508086818640",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "DBpbzfa",
+              "wagenordnungsnummer": "1",
+              "positionamhalt": {
+                "endemeter": "235.17",
+                "endeprozent": "42",
+                "startmeter": "207.9",
+                "startprozent": "38"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "ICD2864",
+          "zielbetriebsstellename": "Hannover Hbf",
+          "startbetriebsstellename": "Dresden Hbf",
+          "verkehrlichezugnummer": "2446"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T17:10:00",
+        "ankunftszeit": "",
+        "bahnhofsname": "Dresden Hbf",
+        "evanummer": "8010085",
+        "gleisbezeichnung": "3",
+        "haltid": "DH",
+        "rl100": "DH",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "76.625",
+              "endeprozent": "14",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "A"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "126.8",
+              "endeprozent": "23",
+              "startmeter": "76.625",
+              "startprozent": "14"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "176.775",
+              "endeprozent": "32",
+              "startmeter": "126.8",
+              "startprozent": "23"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "231.725",
+              "endeprozent": "42",
+              "startmeter": "176.775",
+              "startprozent": "32"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "287",
+              "endeprozent": "52",
+              "startmeter": "231.725",
+              "startprozent": "42"
+            },
+            "sektorbezeichnung": "E"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "340.65",
+              "endeprozent": "61",
+              "startmeter": "287",
+              "startprozent": "52"
+            },
+            "sektorbezeichnung": "F"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "554.2",
+              "endeprozent": "100",
+              "startmeter": "340.65",
+              "startprozent": "61"
+            },
+            "sektorbezeichnung": "G"
+          }
+        ]
+      },
+      "liniebezeichnung": "55",
+      "zuggattung": "IC",
+      "zugnummer": "2446",
+      "serviceid": "10280818748",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

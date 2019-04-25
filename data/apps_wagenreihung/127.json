@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "id": "62B00D6C818341E8B5A27C0FD74EB549",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-24T22:00:03.44+02:00",
+    "sequence": 93
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "10",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "STEUERWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "518080952543",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "F",
+              "fahrzeugtyp": "Bimmdzf",
+              "wagenordnungsnummer": "5",
+              "positionamhalt": {
+                "endemeter": "103.825",
+                "endeprozent": "27",
+                "startmeter": "77.425",
+                "startprozent": "20"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020913173",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "6",
+              "positionamhalt": {
+                "endemeter": "130.225",
+                "endeprozent": "34",
+                "startmeter": "103.825",
+                "startprozent": "27"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020913223",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "7",
+              "positionamhalt": {
+                "endemeter": "156.625",
+                "endeprozent": "41",
+                "startmeter": "130.225",
+                "startprozent": "34"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020952262",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "8",
+              "positionamhalt": {
+                "endemeter": "183.025",
+                "endeprozent": "47",
+                "startmeter": "156.625",
+                "startprozent": "41"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618029946125",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bpmmbz",
+              "wagenordnungsnummer": "9",
+              "positionamhalt": {
+                "endemeter": "209.425",
+                "endeprozent": "54",
+                "startmeter": "183.025",
+                "startprozent": "47"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618021946321",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bvmsz",
+              "wagenordnungsnummer": "10",
+              "positionamhalt": {
+                "endemeter": "235.825",
+                "endeprozent": "61",
+                "startmeter": "209.425",
+                "startprozent": "54"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618019915031",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "7",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Avmz",
+              "wagenordnungsnummer": "12",
+              "positionamhalt": {
+                "endemeter": "262.225",
+                "endeprozent": "68",
+                "startmeter": "235.825",
+                "startprozent": "61"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "RPF478006",
+          "zielbetriebsstellename": "Bonn-Bad Godesberg",
+          "startbetriebsstellename": "Norddeich Mole",
+          "verkehrlichezugnummer": "2203"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "Lok_2203",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "E",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "282.225",
+                "endeprozent": "73",
+                "startmeter": "262.225",
+                "startprozent": "68"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Lok_2203",
+          "zielbetriebsstellename": "Bonn-Bad Godesberg",
+          "startbetriebsstellename": "Norddeich",
+          "verkehrlichezugnummer": "2203"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T15:15:00",
+        "ankunftszeit": "2019-04-25T15:13:00",
+        "bahnhofsname": "Gelsenkirchen Hbf",
+        "evanummer": "8000118",
+        "gleisbezeichnung": "5",
+        "haltid": "EG",
+        "rl100": "EG",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "58.925",
+              "endeprozent": "15",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "G"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "107.55",
+              "endeprozent": "28",
+              "startmeter": "58.925",
+              "startprozent": "15"
+            },
+            "sektorbezeichnung": "F"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "154.475",
+              "endeprozent": "40",
+              "startmeter": "107.55",
+              "startprozent": "28"
+            },
+            "sektorbezeichnung": "E"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "207.025",
+              "endeprozent": "54",
+              "startmeter": "154.475",
+              "startprozent": "40"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "263.275",
+              "endeprozent": "68",
+              "startmeter": "207.025",
+              "startprozent": "54"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "307.975",
+              "endeprozent": "80",
+              "startmeter": "263.275",
+              "startprozent": "68"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "385.45",
+              "endeprozent": "100",
+              "startmeter": "307.975",
+              "startprozent": "80"
+            },
+            "sektorbezeichnung": "A"
+          }
+        ]
+      },
+      "liniebezeichnung": "35",
+      "zuggattung": "IC",
+      "zugnummer": "2203",
+      "serviceid": "9372496515",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": false
+    }
+  }
+}

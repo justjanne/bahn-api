@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "id": "5D4EEB5430CB46DEACC2E1EECBB9F978",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-25T01:28:06.979+02:00",
+    "sequence": 44
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "Lok_2443",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "E",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "346.9",
+                "endeprozent": "76",
+                "startmeter": "326.9",
+                "startprozent": "71"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Lok_2443",
+          "zielbetriebsstellename": "Hannover Hbf",
+          "startbetriebsstellename": "Köln Hbf",
+          "verkehrlichezugnummer": "2443"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "8",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "518084900100",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bimdz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "326.9",
+                "endeprozent": "71",
+                "startmeter": "300.5",
+                "startprozent": "65"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618028954963",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bpwmz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "300.5",
+                "endeprozent": "65",
+                "startmeter": "274.1",
+                "startprozent": "60"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020913678",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "274.1",
+                "endeprozent": "60",
+                "startmeter": "247.7",
+                "startprozent": "54"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618028954997",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bpwmz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "247.7",
+                "endeprozent": "54",
+                "startmeter": "221.3",
+                "startprozent": "48"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618029917142",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bpmbz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "221.3",
+                "endeprozent": "48",
+                "startmeter": "194.9",
+                "startprozent": "42"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618021946362",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bvmsz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "194.9",
+                "endeprozent": "42",
+                "startmeter": "168.5",
+                "startprozent": "37"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618019952695",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "7",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Avmz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "168.5",
+                "endeprozent": "37",
+                "startmeter": "142.1",
+                "startprozent": "31"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "RPF190001",
+          "zielbetriebsstellename": "Hannover Hbf",
+          "startbetriebsstellename": "Köln Hbf",
+          "verkehrlichezugnummer": "2443"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T08:28:00",
+        "ankunftszeit": "2019-04-25T08:21:00",
+        "bahnhofsname": "Dortmund Hbf",
+        "evanummer": "8000080",
+        "gleisbezeichnung": "10",
+        "haltid": "EDO",
+        "rl100": "EDO",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "73.575",
+              "endeprozent": "16",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "G"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "126.675",
+              "endeprozent": "28",
+              "startmeter": "73.575",
+              "startprozent": "16"
+            },
+            "sektorbezeichnung": "F"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "179.725",
+              "endeprozent": "39",
+              "startmeter": "126.675",
+              "startprozent": "28"
+            },
+            "sektorbezeichnung": "E"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "227.875",
+              "endeprozent": "50",
+              "startmeter": "179.725",
+              "startprozent": "39"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "278.075",
+              "endeprozent": "61",
+              "startmeter": "227.875",
+              "startprozent": "50"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "330.9",
+              "endeprozent": "72",
+              "startmeter": "278.075",
+              "startprozent": "61"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "459.1",
+              "endeprozent": "100",
+              "startmeter": "330.9",
+              "startprozent": "72"
+            },
+            "sektorbezeichnung": "A"
+          }
+        ]
+      },
+      "liniebezeichnung": "55",
+      "zuggattung": "IC",
+      "zugnummer": "2443",
+      "serviceid": "10293401637",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

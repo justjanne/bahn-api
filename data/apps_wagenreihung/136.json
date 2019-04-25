@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "id": "B6C776D39AF94441AC3A5C6C3A6F2842",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-25T07:52:09.443+02:00",
+    "sequence": 78
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "STEUERWAGENERSTEZWEITEKLASSE",
+              "fahrzeugnummer": "958009285320",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "F",
+              "fahrzeugtyp": "ABD",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "123.625",
+                "endeprozent": "30",
+                "startmeter": "100.425",
+                "startprozent": "25"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "STEUERWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "958006285323",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "BD",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "146.825",
+                "endeprozent": "36",
+                "startmeter": "123.625",
+                "startprozent": "30"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "D0628532",
+          "zielbetriebsstellename": "Westerland(Sylt)",
+          "startbetriebsstellename": "Niebüll",
+          "verkehrlichezugnummer": "1442"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "GEPAECKWAGEN",
+              "fahrzeugnummer": "658098040061",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Dl",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "173.025",
+                "endeprozent": "43",
+                "startmeter": "146.825",
+                "startprozent": "36"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "GEPAECKWAGEN",
+              "fahrzeugnummer": "658098040053",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Dl",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "199.225",
+                "endeprozent": "49",
+                "startmeter": "173.025",
+                "startprozent": "43"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "DOPPELSTOCKAUTOTRANSPORTWAGENREISEZUGWAGENBAUART",
+              "fahrzeugnummer": "658098041077",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "DDl",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "225.425",
+                "endeprozent": "55",
+                "startmeter": "199.225",
+                "startprozent": "49"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "DOPPELSTOCKAUTOTRANSPORTWAGENREISEZUGWAGENBAUART",
+              "fahrzeugnummer": "658098041143",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "DDl",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "251.625",
+                "endeprozent": "62",
+                "startmeter": "225.425",
+                "startprozent": "55"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "RPFS14005",
+          "zielbetriebsstellename": "Westerland(Sylt)",
+          "startbetriebsstellename": "Niebüll",
+          "verkehrlichezugnummer": "1442"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "Lok_1442",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "E",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "271.625",
+                "endeprozent": "67",
+                "startmeter": "251.625",
+                "startprozent": "62"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Lok_1442",
+          "zielbetriebsstellename": "Westerland(Sylt)",
+          "startbetriebsstellename": "Niebüll",
+          "verkehrlichezugnummer": "1442"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T15:32:00",
+        "ankunftszeit": "",
+        "bahnhofsname": "Niebüll",
+        "evanummer": "8004343",
+        "gleisbezeichnung": "1",
+        "haltid": "ANB",
+        "rl100": "ANB",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "57.225",
+              "endeprozent": "14",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "G"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "113.575",
+              "endeprozent": "28",
+              "startmeter": "57.225",
+              "startprozent": "14"
+            },
+            "sektorbezeichnung": "F"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "166.075",
+              "endeprozent": "41",
+              "startmeter": "113.575",
+              "startprozent": "28"
+            },
+            "sektorbezeichnung": "E"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "218.05",
+              "endeprozent": "54",
+              "startmeter": "166.075",
+              "startprozent": "41"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "264.35",
+              "endeprozent": "65",
+              "startmeter": "218.05",
+              "startprozent": "54"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "314.35",
+              "endeprozent": "77",
+              "startmeter": "264.35",
+              "startprozent": "65"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "406.2",
+              "endeprozent": "100",
+              "startmeter": "314.35",
+              "startprozent": "77"
+            },
+            "sektorbezeichnung": "A"
+          }
+        ]
+      },
+      "liniebezeichnung": "10",
+      "zuggattung": "D",
+      "zugnummer": "1442",
+      "serviceid": "5908024953",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

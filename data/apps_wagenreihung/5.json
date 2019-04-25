@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "id": "666584469D57443597DAE2B5AA984299",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-23T22:00:03.865+02:00",
+    "sequence": 106
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "918061010412",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "E1010",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "131.65",
+                "endeprozent": "37",
+                "startmeter": "112.55",
+                "startprozent": "32"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "918061010412",
+          "zielbetriebsstellename": "Hamburg-Altona",
+          "startbetriebsstellename": "Frankfurt(Main)Hbf",
+          "verkehrlichezugnummer": "2020"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618019913549",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Avmz",
+              "wagenordnungsnummer": "12",
+              "positionamhalt": {
+                "endemeter": "158.05",
+                "endeprozent": "44",
+                "startmeter": "131.65",
+                "startprozent": "37"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEZWEITEKLASSE",
+              "fahrzeugnummer": "618039950984",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "ABvmz",
+              "wagenordnungsnummer": "11",
+              "positionamhalt": {
+                "endemeter": "184.45",
+                "endeprozent": "52",
+                "startmeter": "158.05",
+                "startprozent": "44"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618021948574",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bvmsz",
+              "wagenordnungsnummer": "10",
+              "positionamhalt": {
+                "endemeter": "210.85",
+                "endeprozent": "59",
+                "startmeter": "184.45",
+                "startprozent": "52"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020913017",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "9",
+              "positionamhalt": {
+                "endemeter": "237.25",
+                "endeprozent": "67",
+                "startmeter": "210.85",
+                "startprozent": "59"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020954508",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "8",
+              "positionamhalt": {
+                "endemeter": "263.65",
+                "endeprozent": "74",
+                "startmeter": "237.25",
+                "startprozent": "67"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618020913488",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "7",
+              "positionamhalt": {
+                "endemeter": "290.05",
+                "endeprozent": "81",
+                "startmeter": "263.65",
+                "startprozent": "74"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "16",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "STEUERWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618080911190",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "7",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Bpmmbdzf",
+              "wagenordnungsnummer": "6",
+              "positionamhalt": {
+                "endemeter": "316.45",
+                "endeprozent": "89",
+                "startmeter": "290.05",
+                "startprozent": "81"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "RPF170008",
+          "zielbetriebsstellename": "Hamburg-Altona",
+          "startbetriebsstellename": "Frankfurt(Main)Hbf",
+          "verkehrlichezugnummer": "2020"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T03:52:00",
+        "ankunftszeit": "2019-04-25T03:50:00",
+        "bahnhofsname": "Hamm(Westf)",
+        "evanummer": "8000149",
+        "gleisbezeichnung": "4",
+        "haltid": "EHM",
+        "rl100": "EHM",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "147.1",
+              "endeprozent": "41",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "204.55",
+              "endeprozent": "57",
+              "startmeter": "147.1",
+              "startprozent": "41"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "249.95",
+              "endeprozent": "70",
+              "startmeter": "204.55",
+              "startprozent": "57"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "356.4",
+              "endeprozent": "100",
+              "startmeter": "249.95",
+              "startprozent": "70"
+            },
+            "sektorbezeichnung": "A"
+          }
+        ]
+      },
+      "liniebezeichnung": "31",
+      "zuggattung": "IC",
+      "zugnummer": "2020",
+      "serviceid": "8350939177",
+      "planstarttag": "2019-04-24",
+      "fahrtid": "",
+      "istplaninformation": false
+    }
+  }
+}

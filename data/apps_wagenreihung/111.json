@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "id": "10F095687BA541B78CDC27BBADB1C0F2",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-24T22:00:02.669+02:00",
+    "sequence": 109
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "918061011436",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "E1010",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "35.7",
+                "endeprozent": "9",
+                "startmeter": "16.6",
+                "startprozent": "4"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "918061011436",
+          "zielbetriebsstellename": "Hamburg-Altona",
+          "startbetriebsstellename": "Frankfurt(Main)Hbf",
+          "verkehrlichezugnummer": "2026"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "8",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "518084950519",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Bimdz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "62.1",
+                "endeprozent": "16",
+                "startmeter": "35.7",
+                "startprozent": "9"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "518022940044",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Bimz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "88.5",
+                "endeprozent": "23",
+                "startmeter": "62.1",
+                "startprozent": "16"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "518022948898",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Bimz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "114.9",
+                "endeprozent": "30",
+                "startmeter": "88.5",
+                "startprozent": "23"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "518022948609",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bimz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "141.3",
+                "endeprozent": "37",
+                "startmeter": "114.9",
+                "startprozent": "30"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618028903614",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bpwmz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "167.7",
+                "endeprozent": "44",
+                "startmeter": "141.3",
+                "startprozent": "37"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "618028905338",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bpwmz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "194.1",
+                "endeprozent": "50",
+                "startmeter": "167.7",
+                "startprozent": "44"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "518022948385",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "7",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bimz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "220.5",
+                "endeprozent": "57",
+                "startmeter": "194.1",
+                "startprozent": "50"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618019913390",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "8",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Avmz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "246.9",
+                "endeprozent": "64",
+                "startmeter": "220.5",
+                "startprozent": "57"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "618019952836",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "9",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Avmz",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "273.3",
+                "endeprozent": "71",
+                "startmeter": "246.9",
+                "startprozent": "64"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "RPF169201",
+          "zielbetriebsstellename": "Hamburg-Altona",
+          "startbetriebsstellename": "Frankfurt(Main)Hbf",
+          "verkehrlichezugnummer": "2026"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "918061010404",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "E1010",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "292.4",
+                "endeprozent": "76",
+                "startmeter": "273.3",
+                "startprozent": "71"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "918061010404",
+          "zielbetriebsstellename": "Hamburg-Altona",
+          "startbetriebsstellename": "Frankfurt(Main)Hbf",
+          "verkehrlichezugnummer": "2026"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T14:07:00",
+        "ankunftszeit": "2019-04-25T14:05:00",
+        "bahnhofsname": "Mainz Hbf",
+        "evanummer": "8000240",
+        "gleisbezeichnung": "3a/b",
+        "haltid": "FMZ",
+        "rl100": "FMZ",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "109.9",
+              "endeprozent": "29",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "A"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "160.725",
+              "endeprozent": "42",
+              "startmeter": "109.9",
+              "startprozent": "29"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "218.95",
+              "endeprozent": "57",
+              "startmeter": "160.725",
+              "startprozent": "42"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "277.075",
+              "endeprozent": "72",
+              "startmeter": "218.95",
+              "startprozent": "57"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "384.75",
+              "endeprozent": "100",
+              "startmeter": "277.075",
+              "startprozent": "72"
+            },
+            "sektorbezeichnung": "E"
+          }
+        ]
+      },
+      "liniebezeichnung": "31",
+      "zuggattung": "IC",
+      "zugnummer": "2026",
+      "serviceid": "8357235618",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

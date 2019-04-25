@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "id": "07DFA77D00A146F4B52F9D3C6ABC0A00",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-24T22:00:00.807+02:00",
+    "sequence": 19
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "Lok_1186",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "E",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "191.1",
+                "endeprozent": "93",
+                "startmeter": "171.1",
+                "startprozent": "83"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Lok_1186",
+          "zielbetriebsstellename": "Stuttgart Hbf",
+          "startbetriebsstellename": "Singen(Hohentwiel)",
+          "verkehrlichezugnummer": "1186"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Apmz",
+              "wagenordnungsnummer": "301",
+              "positionamhalt": {
+                "endemeter": "171.1",
+                "endeprozent": "83",
+                "startmeter": "144.9",
+                "startprozent": "71"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "302",
+              "positionamhalt": {
+                "endemeter": "144.9",
+                "endeprozent": "71",
+                "startmeter": "118.7",
+                "startprozent": "58"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "303",
+              "positionamhalt": {
+                "endemeter": "118.7",
+                "endeprozent": "58",
+                "startmeter": "92.5",
+                "startprozent": "45"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "304",
+              "positionamhalt": {
+                "endemeter": "92.5",
+                "endeprozent": "45",
+                "startmeter": "66.3",
+                "startprozent": "32"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "305",
+              "positionamhalt": {
+                "endemeter": "66.3",
+                "endeprozent": "32",
+                "startmeter": "40.1",
+                "startprozent": "20"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "306",
+              "positionamhalt": {
+                "endemeter": "40.1",
+                "endeprozent": "20",
+                "startmeter": "13.9",
+                "startprozent": "7"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Zug_1186_IC_301_306",
+          "zielbetriebsstellename": "Stuttgart Hbf",
+          "startbetriebsstellename": "Singen(Hohentwiel)",
+          "verkehrlichezugnummer": "1186"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T07:25:00",
+        "ankunftszeit": "2019-04-25T07:25:00",
+        "bahnhofsname": "Herrenberg",
+        "evanummer": "8002785",
+        "gleisbezeichnung": "1",
+        "haltid": "THE",
+        "rl100": "THE",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "",
+              "endeprozent": "",
+              "startmeter": "",
+              "startprozent": ""
+            },
+            "sektorbezeichnung": ""
+          }
+        ]
+      },
+      "liniebezeichnung": "87",
+      "zuggattung": "IC",
+      "zugnummer": "1186",
+      "serviceid": "5096657102",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

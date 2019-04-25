@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "id": "CBF481DF4A224CD8BC692C95DA356731",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-24T22:00:03.027+02:00",
+    "sequence": 23
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "Lok_2078",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "E",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "282.1",
+                "endeprozent": "70",
+                "startmeter": "262.1",
+                "startprozent": "65"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Lok_2078",
+          "zielbetriebsstellename": "Berlin Hbf (tief)",
+          "startbetriebsstellename": "Dresden Hbf",
+          "verkehrlichezugnummer": "2078"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "267",
+              "positionamhalt": {
+                "endemeter": "262.1",
+                "endeprozent": "65",
+                "startmeter": "235.9",
+                "startprozent": "58"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEROLLSTUHL",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "ROLLSTUHLTOILETTE",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bvmb",
+              "wagenordnungsnummer": "268",
+              "positionamhalt": {
+                "endemeter": "235.9",
+                "endeprozent": "58",
+                "startmeter": "209.7",
+                "startprozent": "52"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Bvmz",
+              "wagenordnungsnummer": "269",
+              "positionamhalt": {
+                "endemeter": "209.7",
+                "endeprozent": "52",
+                "startmeter": "183.5",
+                "startprozent": "45"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bvmz",
+              "wagenordnungsnummer": "270",
+              "positionamhalt": {
+                "endemeter": "183.5",
+                "endeprozent": "45",
+                "startmeter": "157.3",
+                "startprozent": "39"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "SPEISEWAGEN",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "WRm",
+              "wagenordnungsnummer": "271",
+              "positionamhalt": {
+                "endemeter": "157.3",
+                "endeprozent": "39",
+                "startmeter": "131.1",
+                "startprozent": "32"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Apmz",
+              "wagenordnungsnummer": "272",
+              "positionamhalt": {
+                "endemeter": "131.1",
+                "endeprozent": "32",
+                "startmeter": "104.9",
+                "startprozent": "26"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Zug_2078_IC_267_272",
+          "zielbetriebsstellename": "Berlin Hbf (tief)",
+          "startbetriebsstellename": "Dresden Hbf",
+          "verkehrlichezugnummer": "2078"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T05:51:00",
+        "ankunftszeit": "2019-04-25T05:49:00",
+        "bahnhofsname": "Dresden-Neustadt",
+        "evanummer": "8010089",
+        "gleisbezeichnung": "6",
+        "haltid": "DN",
+        "rl100": "DN",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "64.2",
+              "endeprozent": "16",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "A"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "129.275",
+              "endeprozent": "32",
+              "startmeter": "64.2",
+              "startprozent": "16"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "191.65",
+              "endeprozent": "47",
+              "startmeter": "129.275",
+              "startprozent": "32"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "246.375",
+              "endeprozent": "61",
+              "startmeter": "191.65",
+              "startprozent": "47"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "303.175",
+              "endeprozent": "75",
+              "startmeter": "246.375",
+              "startprozent": "61"
+            },
+            "sektorbezeichnung": "E"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "405.45",
+              "endeprozent": "100",
+              "startmeter": "303.175",
+              "startprozent": "75"
+            },
+            "sektorbezeichnung": "F"
+          }
+        ]
+      },
+      "liniebezeichnung": "27",
+      "zuggattung": "IC",
+      "zugnummer": "2078",
+      "serviceid": "8603096365",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "id": "6E41C2B12E2A4D4A9FAA7D46EEDAD2D0",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-24T22:00:02.392+02:00",
+    "sequence": 20
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "Lok_187",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "E",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "130.8",
+                "endeprozent": "40",
+                "startmeter": "110.8",
+                "startprozent": "34"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Lok_187",
+          "zielbetriebsstellename": "Zürich HB",
+          "startbetriebsstellename": "Stuttgart Hbf",
+          "verkehrlichezugnummer": "187"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Apmz",
+              "wagenordnungsnummer": "301",
+              "positionamhalt": {
+                "endemeter": "157",
+                "endeprozent": "48",
+                "startmeter": "130.8",
+                "startprozent": "40"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "302",
+              "positionamhalt": {
+                "endemeter": "183.2",
+                "endeprozent": "56",
+                "startmeter": "157",
+                "startprozent": "48"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "A",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "303",
+              "positionamhalt": {
+                "endemeter": "209.4",
+                "endeprozent": "64",
+                "startmeter": "183.2",
+                "startprozent": "56"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "304",
+              "positionamhalt": {
+                "endemeter": "235.6",
+                "endeprozent": "72",
+                "startmeter": "209.4",
+                "startprozent": "64"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "305",
+              "positionamhalt": {
+                "endemeter": "261.8",
+                "endeprozent": "80",
+                "startmeter": "235.6",
+                "startprozent": "72"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "6",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bpmz",
+              "wagenordnungsnummer": "306",
+              "positionamhalt": {
+                "endemeter": "288",
+                "endeprozent": "88",
+                "startmeter": "261.8",
+                "startprozent": "80"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Zug_187_IC_301_306",
+          "zielbetriebsstellename": "Zürich HB",
+          "startbetriebsstellename": "Stuttgart Hbf",
+          "verkehrlichezugnummer": "187"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T12:50:00",
+        "ankunftszeit": "2019-04-25T12:48:00",
+        "bahnhofsname": "Böblingen",
+        "evanummer": "8001055",
+        "gleisbezeichnung": "5",
+        "haltid": "TBO",
+        "rl100": "TBO",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "208.3",
+              "endeprozent": "64",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "A"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "257.725",
+              "endeprozent": "79",
+              "startmeter": "208.3",
+              "startprozent": "64"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "327.8",
+              "endeprozent": "100",
+              "startmeter": "257.725",
+              "startprozent": "79"
+            },
+            "sektorbezeichnung": "C"
+          }
+        ]
+      },
+      "liniebezeichnung": "87",
+      "zuggattung": "IC",
+      "zugnummer": "187",
+      "serviceid": "694627271",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

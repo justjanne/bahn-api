@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "id": "F754AD9D3F2A4AB591F62D7402C75517",
+    "owner": "vz",
+    "format": "JSON",
+    "version": "0.2.24",
+    "correlation": [],
+    "created": "2019-04-25T11:00:46.143+02:00",
+    "sequence": 57
+  },
+  "data": {
+    "istformation": {
+      "fahrtrichtung": "VORWAERTS",
+      "allFahrzeuggruppe": [
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "LOK",
+              "fahrzeugnummer": "Lok_176",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "E",
+              "wagenordnungsnummer": "",
+              "positionamhalt": {
+                "endemeter": "315.6",
+                "endeprozent": "79",
+                "startmeter": "295.6",
+                "startprozent": "74"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Lok_176",
+          "zielbetriebsstellename": "Hamburg-Altona",
+          "startbetriebsstellename": "Praha hl.n.",
+          "verkehrlichezugnummer": "176"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "B",
+              "fahrzeugtyp": "Bvmz",
+              "wagenordnungsnummer": "258",
+              "positionamhalt": {
+                "endemeter": "295.6",
+                "endeprozent": "74",
+                "startmeter": "269.4",
+                "startprozent": "68"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bvmz",
+              "wagenordnungsnummer": "259",
+              "positionamhalt": {
+                "endemeter": "269.4",
+                "endeprozent": "68",
+                "startmeter": "243.2",
+                "startprozent": "61"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "3",
+              "fahrzeugsektor": "C",
+              "fahrzeugtyp": "Bvmz",
+              "wagenordnungsnummer": "260",
+              "positionamhalt": {
+                "endemeter": "243.2",
+                "endeprozent": "61",
+                "startmeter": "217",
+                "startprozent": "55"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [],
+              "kategorie": "SPEISEWAGEN",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "4",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "WRmz",
+              "wagenordnungsnummer": "261",
+              "positionamhalt": {
+                "endemeter": "217",
+                "endeprozent": "55",
+                "startmeter": "190.8",
+                "startprozent": "48"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENERSTEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "5",
+              "fahrzeugsektor": "D",
+              "fahrzeugtyp": "Apmz",
+              "wagenordnungsnummer": "262",
+              "positionamhalt": {
+                "endemeter": "190.8",
+                "endeprozent": "48",
+                "startmeter": "164.6",
+                "startprozent": "41"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Zug_176_ECB_258_262",
+          "zielbetriebsstellename": "Hamburg-Altona",
+          "startbetriebsstellename": "Praha hl.n.",
+          "verkehrlichezugnummer": "176"
+        },
+        {
+          "allFahrzeug": [
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "1",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Bhmpz",
+              "wagenordnungsnummer": "256",
+              "positionamhalt": {
+                "endemeter": "164.6",
+                "endeprozent": "41",
+                "startmeter": "138.4",
+                "startprozent": "35"
+              },
+              "status": "OFFEN"
+            },
+            {
+              "allFahrzeugausstattung": [
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "KLIMA",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                },
+                {
+                  "anzahl": "",
+                  "ausstattungsart": "PLAETZEFAHRRAD",
+                  "bezeichnung": "",
+                  "status": "UNDEFINIERT"
+                }
+              ],
+              "kategorie": "REISEZUGWAGENZWEITEKLASSE",
+              "fahrzeugnummer": "",
+              "orientierung": "UNDEFINIERT",
+              "positioningruppe": "2",
+              "fahrzeugsektor": "E",
+              "fahrzeugtyp": "Bdmpz",
+              "wagenordnungsnummer": "255",
+              "positionamhalt": {
+                "endemeter": "138.4",
+                "endeprozent": "35",
+                "startmeter": "112.2",
+                "startprozent": "28"
+              },
+              "status": "OFFEN"
+            }
+          ],
+          "fahrzeuggruppebezeichnung": "Zug_176_ECB_255_256",
+          "zielbetriebsstellename": "Berlin Hbf (tief)",
+          "startbetriebsstellename": "Praha hl.n.",
+          "verkehrlichezugnummer": "176"
+        }
+      ],
+      "halt": {
+        "abfahrtszeit": "2019-04-25T10:18:00",
+        "ankunftszeit": "2019-04-25T10:17:00",
+        "bahnhofsname": "Bad Schandau",
+        "evanummer": "8010022",
+        "gleisbezeichnung": "2",
+        "haltid": "DSA",
+        "rl100": "DSA",
+        "allSektor": [
+          {
+            "positionamgleis": {
+              "endemeter": "38.9",
+              "endeprozent": "10",
+              "startmeter": "0",
+              "startprozent": "0"
+            },
+            "sektorbezeichnung": "G"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "91.95",
+              "endeprozent": "23",
+              "startmeter": "38.9",
+              "startprozent": "10"
+            },
+            "sektorbezeichnung": "F"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "151.85",
+              "endeprozent": "38",
+              "startmeter": "91.95",
+              "startprozent": "23"
+            },
+            "sektorbezeichnung": "E"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "211.35",
+              "endeprozent": "53",
+              "startmeter": "151.85",
+              "startprozent": "38"
+            },
+            "sektorbezeichnung": "D"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "271.6",
+              "endeprozent": "68",
+              "startmeter": "211.35",
+              "startprozent": "53"
+            },
+            "sektorbezeichnung": "C"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "331.9",
+              "endeprozent": "84",
+              "startmeter": "271.6",
+              "startprozent": "68"
+            },
+            "sektorbezeichnung": "B"
+          },
+          {
+            "positionamgleis": {
+              "endemeter": "397.2",
+              "endeprozent": "100",
+              "startmeter": "331.9",
+              "startprozent": "84"
+            },
+            "sektorbezeichnung": "A"
+          }
+        ]
+      },
+      "liniebezeichnung": "",
+      "zuggattung": "EC",
+      "zugnummer": "176",
+      "serviceid": "734585594",
+      "planstarttag": "2019-04-25",
+      "fahrtid": "",
+      "istplaninformation": true
+    }
+  }
+}

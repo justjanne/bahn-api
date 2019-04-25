@@ -1,0 +1,5 @@
+*.iml
+/.idea/*
+!/.idea/copyright/
+.DS_Store
+/out/*/

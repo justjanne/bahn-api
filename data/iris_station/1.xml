@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<stations>
+  <station creationts="19-03-27 16:50:09.469" db="true" ds100="BLS" eva="8011160" meta="8070952|8071068|8089021|8098160" name="Berlin Hbf" p="11|12 D - G|12|13 A - D|13|14|13 D - G|13 A - C|13 C - D|11 D - G|14 A - D|14 A - C|14 C - D|14 E - F|11 C - D|13 E - F|11 E - F|11 A - D|12 A - D|14 D - G|12 C - D|12 E - F"/>
+</stations>
