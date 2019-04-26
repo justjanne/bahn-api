@@ -95,7 +95,7 @@ type rawCoachSequenceFormation struct {
 	Type               string                       `json:"zuggattung"`
 	TrainId            string                       `json:"zugnummer"`
 	ServiceId          string                       `json:"serviceid"`
-	StartingDate       BahnDate                     `json:"planstarttag"`
+	StartingDate       bahnDate                     `json:"planstarttag"`
 	JourneyId          string                       `json:"fahrtid"`
 	IsPlannedFormation bool                         `json:"istplaninformation"`
 }
@@ -116,8 +116,8 @@ func parseCoachSequenceFormation(data rawCoachSequenceFormation) CoachSequenceFo
 }
 
 type rawCoachSequenceStop struct {
-	Departure        MediumBahnTime                    `json:"abfahrtszeit"`
-	Arrival          MediumBahnTime                    `json:"ankunftszeit"`
+	Departure        mediumBahnTime                    `json:"abfahrtszeit"`
+	Arrival          mediumBahnTime                    `json:"ankunftszeit"`
 	Station          string                            `json:"bahnhofsname"`
 	EvaId            string                            `json:"evanummer"`
 	Platform         string                            `json:"gleisbezeichnung"`

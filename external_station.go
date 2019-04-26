@@ -32,13 +32,13 @@ func parseStations(data rawStations) []Station {
 }
 
 type rawStation struct {
-	Platforms   *BahnStringList `xml:"p,attr,omitempty"`
-	Meta        *BahnStringList `xml:"meta,attr,omitempty"`
+	Platforms   *bahnStringList `xml:"p,attr,omitempty"`
+	Meta        *bahnStringList `xml:"meta,attr,omitempty"`
 	StationName string          `xml:"name,attr,omitempty"`
 	EvaId       string          `xml:"eva,attr,omitempty"`
 	StationCode string          `xml:"ds100,attr,omitempty"`
 	Db          bool            `xml:"db,attr,omitempty"`
-	CreatedAt   *BahnTime       `xml:"creationts,attr,omitempty"`
+	CreatedAt   *bahnTime       `xml:"creationts,attr,omitempty"`
 }
 
 func parseStation(data rawStation) Station {

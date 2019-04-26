@@ -7,9 +7,9 @@ import (
 	"time"
 )
 
-type BahnStringList []string
+type bahnStringList []string
 
-func (s *BahnStringList) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
+func (s *bahnStringList) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
 	if s == nil {
 		return xml.Attr{}, nil
 	} else {
@@ -20,12 +20,12 @@ func (s *BahnStringList) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
 	}
 }
 
-func (s *BahnStringList) UnmarshalXMLAttr(attr xml.Attr) error {
+func (s *bahnStringList) UnmarshalXMLAttr(attr xml.Attr) error {
 	*s = strings.Split(attr.Value, "|")
 	return nil
 }
 
-func (s *BahnStringList) Value() []string {
+func (s *bahnStringList) Value() []string {
 	if s != nil {
 		return *s
 	} else {
@@ -33,26 +33,26 @@ func (s *BahnStringList) Value() []string {
 	}
 }
 
-type BahnTime struct {
+type bahnTime struct {
 	time.Time
 }
 
-const BahnTimeLayout = "06-01-02 15:04:05.999"
+const bahnTimeLayout = "06-01-02 15:04:05.999"
 
-func (t *BahnTime) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
+func (t *bahnTime) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
 	if t == nil || t.IsZero() {
 		return xml.Attr{}, nil
 	} else {
 		return xml.Attr{
 			Name:  name,
-			Value: t.Format(BahnTimeLayout),
+			Value: t.Format(bahnTimeLayout),
 		}, nil
 	}
 }
 
-func (t *BahnTime) UnmarshalXMLAttr(attr xml.Attr) error {
+func (t *bahnTime) UnmarshalXMLAttr(attr xml.Attr) error {
 	if attr.Value != "" {
-		value, err := time.Parse(BahnTimeLayout, attr.Value)
+		value, err := time.Parse(bahnTimeLayout, attr.Value)
 		if err != nil {
 			return err
 		}
@@ -61,7 +61,7 @@ func (t *BahnTime) UnmarshalXMLAttr(attr xml.Attr) error {
 	return nil
 }
 
-func (t *BahnTime) Value() *time.Time {
+func (t *bahnTime) Value() *time.Time {
 	if t != nil {
 		return &t.Time
 	} else {
@@ -69,26 +69,26 @@ func (t *BahnTime) Value() *time.Time {
 	}
 }
 
-type ShortBahnTime struct {
+type shortBahnTime struct {
 	time.Time
 }
 
-const ShortBahnTimeLayout = "0601021504"
+const shortBahnTimeLayout = "0601021504"
 
-func (t *ShortBahnTime) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
+func (t *shortBahnTime) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
 	if t == nil || t.IsZero() {
 		return xml.Attr{}, nil
 	} else {
 		return xml.Attr{
 			Name:  name,
-			Value: t.Format(ShortBahnTimeLayout),
+			Value: t.Format(shortBahnTimeLayout),
 		}, nil
 	}
 }
 
-func (t *ShortBahnTime) UnmarshalXMLAttr(attr xml.Attr) error {
+func (t *shortBahnTime) UnmarshalXMLAttr(attr xml.Attr) error {
 	if attr.Value != "" {
-		value, err := time.Parse(ShortBahnTimeLayout, attr.Value)
+		value, err := time.Parse(shortBahnTimeLayout, attr.Value)
 		if err != nil {
 			return err
 		}
@@ -97,7 +97,7 @@ func (t *ShortBahnTime) UnmarshalXMLAttr(attr xml.Attr) error {
 	return nil
 }
 
-func (t *ShortBahnTime) Value() *time.Time {
+func (t *shortBahnTime) Value() *time.Time {
 	if t != nil {
 		return &t.Time
 	} else {
@@ -105,26 +105,26 @@ func (t *ShortBahnTime) Value() *time.Time {
 	}
 }
 
-type MediumBahnTime struct {
+type mediumBahnTime struct {
 	time.Time
 }
 
-const MediumBahnTimeLayout = "2006-01-02T15:04:05"
+const mediumBahnTimeLayout = "2006-01-02T15:04:05"
 
-func (t *MediumBahnTime) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
+func (t *mediumBahnTime) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
 	if t == nil || t.IsZero() {
 		return xml.Attr{}, nil
 	} else {
 		return xml.Attr{
 			Name:  name,
-			Value: t.Format(MediumBahnTimeLayout),
+			Value: t.Format(mediumBahnTimeLayout),
 		}, nil
 	}
 }
 
-func (t *MediumBahnTime) UnmarshalXMLAttr(attr xml.Attr) error {
+func (t *mediumBahnTime) UnmarshalXMLAttr(attr xml.Attr) error {
 	if attr.Value != "" {
-		value, err := time.Parse(MediumBahnTimeLayout, attr.Value)
+		value, err := time.Parse(mediumBahnTimeLayout, attr.Value)
 		if err != nil {
 			return err
 		}
@@ -133,17 +133,17 @@ func (t *MediumBahnTime) UnmarshalXMLAttr(attr xml.Attr) error {
 	return nil
 }
 
-func (t *MediumBahnTime) MarshalJSON() ([]byte, error) {
+func (t *mediumBahnTime) MarshalJSON() ([]byte, error) {
 	var text string
 	if t == nil || t.IsZero() {
 		text = ""
 	} else {
-		text = t.Format(MediumBahnTimeLayout)
+		text = t.Format(mediumBahnTimeLayout)
 	}
 	return json.Marshal(&text)
 }
 
-func (t *MediumBahnTime) UnmarshalJSON(data []byte) error {
+func (t *mediumBahnTime) UnmarshalJSON(data []byte) error {
 	var err error
 
 	var text string
@@ -153,7 +153,7 @@ func (t *MediumBahnTime) UnmarshalJSON(data []byte) error {
 
 	if text != "" {
 		var value time.Time
-		if value, err = time.Parse(MediumBahnTimeLayout, text); err != nil {
+		if value, err = time.Parse(mediumBahnTimeLayout, text); err != nil {
 			return err
 		}
 		t.Time = value
@@ -161,7 +161,7 @@ func (t *MediumBahnTime) UnmarshalJSON(data []byte) error {
 	return nil
 }
 
-func (t *MediumBahnTime) Value() *time.Time {
+func (t *mediumBahnTime) Value() *time.Time {
 	if t != nil {
 		return &t.Time
 	} else {
@@ -169,26 +169,26 @@ func (t *MediumBahnTime) Value() *time.Time {
 	}
 }
 
-type BahnDate struct {
+type bahnDate struct {
 	time.Time
 }
 
-const BahnDateLayout = "2006-01-02"
+const bahnDateLayout = "2006-01-02"
 
-func (t *BahnDate) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
+func (t *bahnDate) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
 	if t == nil || t.IsZero() {
 		return xml.Attr{}, nil
 	} else {
 		return xml.Attr{
 			Name:  name,
-			Value: t.Format(BahnDateLayout),
+			Value: t.Format(bahnDateLayout),
 		}, nil
 	}
 }
 
-func (t *BahnDate) UnmarshalXMLAttr(attr xml.Attr) error {
+func (t *bahnDate) UnmarshalXMLAttr(attr xml.Attr) error {
 	if attr.Value != "" {
-		value, err := time.Parse(BahnDateLayout, attr.Value)
+		value, err := time.Parse(bahnDateLayout, attr.Value)
 		if err != nil {
 			return err
 		}
@@ -197,17 +197,17 @@ func (t *BahnDate) UnmarshalXMLAttr(attr xml.Attr) error {
 	return nil
 }
 
-func (t *BahnDate) MarshalJSON() ([]byte, error) {
+func (t *bahnDate) MarshalJSON() ([]byte, error) {
 	var text string
 	if t == nil || t.IsZero() {
 		text = ""
 	} else {
-		text = t.Format(BahnDateLayout)
+		text = t.Format(bahnDateLayout)
 	}
 	return json.Marshal(&text)
 }
 
-func (t *BahnDate) UnmarshalJSON(data []byte) error {
+func (t *bahnDate) UnmarshalJSON(data []byte) error {
 	var err error
 
 	var text string
@@ -217,7 +217,7 @@ func (t *BahnDate) UnmarshalJSON(data []byte) error {
 
 	if text != "" {
 		var value time.Time
-		if value, err = time.Parse(BahnDateLayout, text); err != nil {
+		if value, err = time.Parse(bahnDateLayout, text); err != nil {
 			return err
 		}
 		t.Time = value
@@ -225,7 +225,7 @@ func (t *BahnDate) UnmarshalJSON(data []byte) error {
 	return nil
 }
 
-func (t *BahnDate) Value() *time.Time {
+func (t *bahnDate) Value() *time.Time {
 	if t != nil {
 		return &t.Time
 	} else {
