@@ -117,8 +117,8 @@ func parseCoachSequenceFormation(data rawCoachSequenceFormation) CoachSequenceFo
 }
 
 type rawCoachSequenceStop struct {
-	Departure        mediumBahnTime                    `json:"abfahrtszeit"`
-	Arrival          mediumBahnTime                    `json:"ankunftszeit"`
+	Departure        timeMedium                        `json:"abfahrtszeit"`
+	Arrival          timeMedium                        `json:"ankunftszeit"`
 	Station          string                            `json:"bahnhofsname"`
 	EvaId            string                            `json:"evanummer"`
 	Platform         string                            `json:"gleisbezeichnung"`

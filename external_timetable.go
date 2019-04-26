@@ -42,14 +42,14 @@ func parseTimetable(data rawTimetable) Timetable {
 type rawMessage struct {
 	MessageId           string                  `xml:"id,attr,omitempty"`
 	Type                rawMessageType          `xml:"t,attr,omitempty"`
-	From                *shortBahnTime          `xml:"from,attr,omitempty"`
-	To                  *shortBahnTime          `xml:"to,attr,omitempty"`
+	From                *timeShort              `xml:"from,attr,omitempty"`
+	To                  *timeShort              `xml:"to,attr,omitempty"`
 	Code                *int                    `xml:"c,attr,omitempty"`
 	InternalText        string                  `xml:"int,attr,omitempty"`
 	ExternalText        string                  `xml:"ext,attr,omitempty"`
 	Category            string                  `xml:"cat,attr,omitempty"`
 	ExternalCategory    string                  `xml:"ec,attr,omitempty"`
-	Timestamp           *shortBahnTime          `xml:"ts,attr,omitempty"`
+	Timestamp           *timeShort              `xml:"ts,attr,omitempty"`
 	Priority            rawPriority             `xml:"pr,attr,omitempty"`
 	Owner               string                  `xml:"o,attr,omitempty"`
 	ExternalLink        string                  `xml:"elnk,attr,omitempty"`
@@ -188,7 +188,7 @@ type rawDistributorMessage struct {
 	DistributorType rawDistributorType `xml:"t,attr,omitempty"`
 	DistributorName string             `xml:"n,attr,omitempty"`
 	InternalText    string             `xml:"int,attr,omitempty"`
-	Timestamp       *shortBahnTime     `xml:"ts,attr,omitempty"`
+	Timestamp       *timeShort         `xml:"ts,attr,omitempty"`
 }
 
 func parseDistributorMessages(data []rawDistributorMessage) []DistributorMessage {
@@ -260,13 +260,13 @@ func parseTimetableStop(data rawTimetableStop) TimetableStop {
 }
 
 type rawTripLabel struct {
-	Messages     []rawMessage   `xml:"m,omitempty"`
-	CreatedAt    *shortBahnTime `xml:"ct,attr"`
-	FilterFlag   rawFilterFlag  `xml:"f,attr,omitempty"`
-	TripType     rawTripType    `xml:"t,attr,omitempty"`
-	Owner        string         `xml:"o,attr,omitempty"`
-	TripCategory string         `xml:"c,attr,omitempty"`
-	TripNumber   string         `xml:"n,attr,omitempty"`
+	Messages     []rawMessage  `xml:"m,omitempty"`
+	CreatedAt    *timeShort    `xml:"ct,attr"`
+	FilterFlag   rawFilterFlag `xml:"f,attr,omitempty"`
+	TripType     rawTripType   `xml:"t,attr,omitempty"`
+	Owner        string        `xml:"o,attr,omitempty"`
+	TripCategory string        `xml:"c,attr,omitempty"`
+	TripNumber   string        `xml:"n,attr,omitempty"`
 }
 
 func parseTripLabel(data rawTripLabel) TripLabel {
@@ -344,9 +344,9 @@ func parseTripType(data rawTripType) TripType {
 }
 
 type rawHistoricDelay struct {
-	Timestamp *shortBahnTime `xml:"ts,attr"`
-	Arrival   *shortBahnTime `xml:"ar,attr"`
-	Departure *shortBahnTime `xml:"dp,attr"`
+	Timestamp *timeShort     `xml:"ts,attr"`
+	Arrival   *timeShort     `xml:"ar,attr"`
+	Departure *timeShort     `xml:"dp,attr"`
 	Source    rawDelaySource `xml:"src,attr"`
 	Code      string         `xml:"cod,attr"`
 }
@@ -407,10 +407,10 @@ func parseDelaySource(data rawDelaySource) DelaySource {
 }
 
 type rawHistoricPlatformChange struct {
-	Timestamp         *shortBahnTime `xml:"ts,attr,omitempty"`
-	ArrivalPlatform   string         `xml:"ar,attr,omitempty"`
-	DeparturePlatform string         `xml:"dp,attr,omitempty"`
-	Cause             string         `xml:"cot,attr,omitempty"`
+	Timestamp         *timeShort `xml:"ts,attr,omitempty"`
+	ArrivalPlatform   string     `xml:"ar,attr,omitempty"`
+	DeparturePlatform string     `xml:"dp,attr,omitempty"`
+	Cause             string     `xml:"cot,attr,omitempty"`
 }
 
 func parseHistoricPlatformChanges(data []rawHistoricPlatformChange) []HistoricPlatformChange {
@@ -432,7 +432,7 @@ func parseHistoricPlatformChange(data rawHistoricPlatformChange) HistoricPlatfor
 
 type rawConnection struct {
 	ConnectionId     string              `xml:"id,attr,omitempty"`
-	Timestamp        *shortBahnTime      `xml:"ts,attr,omitempty"`
+	Timestamp        *timeShort          `xml:"ts,attr,omitempty"`
 	EvaId            int64               `xml:"eva,attr,omitempty"`
 	ConnectionStatus rawConnectionStatus `xml:"cs,attr,omitempty"`
 	Ref              *rawTimetableStop   `xml:"ref,omitempty"`
@@ -520,11 +520,11 @@ type rawEvent struct {
 	Messages []rawMessage `xml:"m,omitempty"`
 
 	PlannedPlatform    string          `xml:"pp,attr,omitempty"`
-	PlannedTime        *shortBahnTime  `xml:"pt,attr,omitempty"`
+	PlannedTime        *timeShort      `xml:"pt,attr,omitempty"`
 	PlannedPath        *bahnStringList `xml:"ppth,attr,omitempty"`
 	PlannedDestination string          `xml:"pde,attr,omitempty"`
 	ChangedPlatform    string          `xml:"cp,attr,omitempty"`
-	ChangedTime        *shortBahnTime  `xml:"ct,attr"`
+	ChangedTime        *timeShort      `xml:"ct,attr"`
 	ChangedPath        *bahnStringList `xml:"cpth,attr,omitempty"`
 	ChangedDestination string          `xml:"cde,attr,omitempty"`
 	PlannedStatus      rawEventStatus  `xml:"ps,attr,omitempty"`
