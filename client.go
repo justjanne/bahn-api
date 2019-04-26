@@ -2,7 +2,9 @@ package bahn
 
 import (
 	"fmt"
+	"io/ioutil"
 	"net/http"
+	"strings"
 	"time"
 
 	"net/url"
@@ -174,7 +176,15 @@ func (c *ApiClient) Suggestions(line string, date time.Time) ([]Suggestion, erro
 		return suggestions, err
 	}
 
-	if suggestions, err = SuggestionsFromReader(response.Body); err != nil {
+	var content []byte
+	if content, err = ioutil.ReadAll(response.Body); err != nil {
+		return suggestions, err
+	}
+	strippedContent := string(content)
+	strippedContent = strings.TrimPrefix(strippedContent, "TSLs.sls = ")
+	strippedContent = strings.TrimSuffix(strippedContent, ";")
+
+	if suggestions, err = SuggestionsFromBytes([]byte(strippedContent)); err != nil {
 		return suggestions, err
 	}
 
