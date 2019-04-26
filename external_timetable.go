@@ -3,11 +3,12 @@ package bahn
 import (
 	"encoding/xml"
 	"fmt"
+	"io"
 )
 
-func TimetableFromDecoder(source xml.Decoder) (Timetable, error) {
+func TimetableFromReader(source io.Reader) (Timetable, error) {
 	var raw rawTimetable
-	if err := source.Decode(&raw); err != nil {
+	if err := xml.NewDecoder(source).Decode(&raw); err != nil {
 		return Timetable{}, err
 	}
 	return parseTimetable(raw), nil

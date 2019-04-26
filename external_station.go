@@ -1,10 +1,13 @@
 package bahn
 
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"io"
+)
 
-func StationsFromDecoder(source xml.Decoder) ([]Station, error) {
+func StationsFromReader(source io.Reader) ([]Station, error) {
 	var raw rawStations
-	if err := source.Decode(&raw); err != nil {
+	if err := xml.NewDecoder(source).Decode(&raw); err != nil {
 		return make([]Station, 0), err
 	}
 	return parseStations(raw), nil

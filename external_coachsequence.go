@@ -2,15 +2,16 @@ package bahn
 
 import (
 	"encoding/json"
+	"io"
 	"strconv"
 	"strings"
 	"time"
 	"unicode"
 )
 
-func CoachSequenceFromDecoder(source json.Decoder) (CoachSequence, error) {
+func CoachSequenceFromReader(source io.Reader) (CoachSequence, error) {
 	var raw rawCoachSequence
-	if err := source.Decode(&raw); err != nil {
+	if err := json.NewDecoder(source).Decode(&raw); err != nil {
 		return CoachSequence{}, err
 	}
 	return parseCoachSequence(raw), nil

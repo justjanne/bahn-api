@@ -1,10 +1,13 @@
 package bahn
 
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"io"
+)
 
-func WingDefinitionFromDecoder(source xml.Decoder) (WingDefinition, error) {
+func WingDefinitionFromReader(source io.Reader) (WingDefinition, error) {
 	var raw rawWingDefinition
-	if err := source.Decode(&raw); err != nil {
+	if err := xml.NewDecoder(source).Decode(&raw); err != nil {
 		return WingDefinition{}, err
 	}
 	return parseWingDefinition(raw), nil
