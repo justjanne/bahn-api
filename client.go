@@ -9,7 +9,7 @@ import (
 type ApiClient struct {
 	IrisBaseUrl          string
 	CoachSequenceBaseUrl string
-	netClient            *http.Client
+	HttpClient            *http.Client
 }
 
 func (c *ApiClient) Station(evaId int64) ([]Station, error) {
@@ -20,7 +20,7 @@ func (c *ApiClient) Station(evaId int64) ([]Station, error) {
 	var stations []Station
 
 	var response *http.Response
-	if response, err = c.netClient.Get(url); err != nil {
+	if response, err = c.HttpClient.Get(url); err != nil {
 		return stations, err
 	}
 
@@ -44,7 +44,7 @@ func (c *ApiClient) Timetable(evaId int64, date time.Time) (Timetable, error) {
 	var timetable Timetable
 
 	var response *http.Response
-	if response, err = c.netClient.Get(url); err != nil {
+	if response, err = c.HttpClient.Get(url); err != nil {
 		return timetable, err
 	}
 
@@ -67,7 +67,7 @@ func (c *ApiClient) RealtimeAll(evaId int64, date time.Time) (Timetable, error) 
 	var timetable Timetable
 
 	var response *http.Response
-	if response, err = c.netClient.Get(url); err != nil {
+	if response, err = c.HttpClient.Get(url); err != nil {
 		return timetable, err
 	}
 
@@ -90,7 +90,7 @@ func (c *ApiClient) RealtimeRecent(evaId int64, date time.Time) (Timetable, erro
 	var timetable Timetable
 
 	var response *http.Response
-	if response, err = c.netClient.Get(url); err != nil {
+	if response, err = c.HttpClient.Get(url); err != nil {
 		return timetable, err
 	}
 
@@ -113,7 +113,7 @@ func (c *ApiClient) WingDefinition(parent string, wing string) (WingDefinition, 
 	var wingDefinition WingDefinition
 
 	var response *http.Response
-	if response, err = c.netClient.Get(url); err != nil {
+	if response, err = c.HttpClient.Get(url); err != nil {
 		return wingDefinition, err
 	}
 
@@ -136,7 +136,7 @@ func (c *ApiClient) CoachSequence(line string, date time.Time) (CoachSequence, e
 	var coachSequence CoachSequence
 
 	var response *http.Response
-	if response, err = c.netClient.Get(url); err != nil {
+	if response, err = c.HttpClient.Get(url); err != nil {
 		return coachSequence, err
 	}
 
