@@ -1,4 +1,4 @@
-package main
+package bahn
 
 type WingDefinition struct {
 	Start WingDefinitionElement `json:"start"yaml:"start"`

@@ -1,4 +1,4 @@
-package main
+package bahn
 
 import (
 	"encoding/json"

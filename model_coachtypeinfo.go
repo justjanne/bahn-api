@@ -1,4 +1,4 @@
-package main
+package bahn
 
 type CoachTypeInfo struct {
 	RawType string `json:"raw_type"yaml:"raw_type"`
