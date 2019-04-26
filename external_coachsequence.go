@@ -84,7 +84,7 @@ func parseDirection(data string) CoachSequenceFormationDirection {
 	case rawDirectionUndefined:
 		return DirectionUndefined
 	default:
-		return DirectionUndefined
+		return DirectionUnknown
 	}
 }
 

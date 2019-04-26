@@ -27,6 +27,7 @@ const (
 	DirectionForwards  CoachSequenceFormationDirection = "FORWARDS"
 	DirectionBackwards CoachSequenceFormationDirection = "BACKWARDS"
 	DirectionUndefined CoachSequenceFormationDirection = "UNDEFINED"
+	DirectionUnknown   CoachSequenceFormationDirection = "UNKNOWN"
 )
 
 type CoachSequenceFormation struct {
