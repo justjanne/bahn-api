@@ -243,7 +243,7 @@ func parseTimetableStop(data rawTimetableStop) TimetableStop {
 	var departure *Event
 	if data.Departure != nil {
 		it := parseEvent(*data.Departure)
-		arrival = &it
+		departure = &it
 	}
 	return TimetableStop{
 		StopId:                  data.StopId,
