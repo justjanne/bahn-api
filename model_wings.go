@@ -9,5 +9,5 @@ type WingDefinitionElement struct {
 	EvaId       string `json:"eva_id,omitempty"yaml:"eva_id,omitempty"`
 	StationName string `json:"station_name,omitempty"yaml:"station_name,omitempty"`
 	PlannedTime string `json:"planned_time,omitempty"yaml:"planned_time,omitempty"`
-	Fl          bool   `json:"fl"yaml:"fl"`
+	Fl          bool   `json:"fl,omitempty"yaml:"fl,omitempty"`
 }

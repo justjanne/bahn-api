@@ -12,7 +12,7 @@ type HafasMessage struct {
 type HafasMessagePriority string
 
 const (
-	HafasMessagePriorityLow    HafasMessagePriority = "LOW"
-	HafasMessagePriorityMiddle HafasMessagePriority = "MIDDLE"
 	HafasMessagePriorityHigh   HafasMessagePriority = "HIGH"
+	HafasMessagePriorityMiddle HafasMessagePriority = "MEDIUM"
+	HafasMessagePriorityLow    HafasMessagePriority = "LOW"
 )
