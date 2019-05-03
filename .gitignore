@@ -2,4 +2,4 @@
 /.idea/*
 !/.idea/copyright/
 .DS_Store
-/out/*/
+/out/*/*

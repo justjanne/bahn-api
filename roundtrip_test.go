@@ -132,7 +132,7 @@ func jsonInput(raw interface{}, filename string) {
 	}
 }
 
-func xmlOutput(raw interface{}, data interface{}, filename string) {
+func xmlRoundtrip(raw interface{}, data interface{}, filename string) {
 	var err error
 
 	if err = encodeXml(raw, filename+".roundtrip.xml"); err != nil {
@@ -148,12 +148,24 @@ func xmlOutput(raw interface{}, data interface{}, filename string) {
 	}
 }
 
-func jsonOutput(raw interface{}, data interface{}, filename string) {
+func jsonRoundtrip(raw interface{}, data interface{}, filename string) {
 	var err error
 
 	if err = encodeJson(raw, filename+".roundtrip.json"); err != nil {
 		panic(err.Error())
 	}
+
+	if err = encodeYaml(data, filename+".yaml"); err != nil {
+		panic(err.Error())
+	}
+
+	if err = encodeJson(data, filename+".json"); err != nil {
+		panic(err.Error())
+	}
+}
+
+func jsonOutput(raw interface{}, data interface{}, filename string) {
+	var err error
 
 	if err = encodeYaml(data, filename+".yaml"); err != nil {
 		panic(err.Error())
@@ -172,6 +184,7 @@ var timetableData []byte
 var realtimeData []byte
 var wingDefinitionData []byte
 var coachSequenceData []byte
+var hafasMessageData []byte
 
 func TestMain(m *testing.M) {
 	var err error
@@ -189,6 +202,9 @@ func TestMain(m *testing.M) {
 		panic(err)
 	}
 	if coachSequenceData, err = ioutil.ReadFile(fmt.Sprintf("%s/%s/%d.json", InputFolder, "apps_wagenreihung", 0)); err != nil {
+		panic(err)
+	}
+	if hafasMessageData, err = ioutil.ReadFile(fmt.Sprintf("%s/%s/%d.html", InputFolder, "hafas_messages", 0)); err != nil {
 		panic(err)
 	}
 
@@ -225,7 +241,13 @@ func BenchmarkCoachSequence(b *testing.B) {
 	}
 }
 
-func BenchmarkRoundtrip(b *testing.B) {
+func BenchmarkHafasMessages(b *testing.B) {
+	if _, err := HafasMessagesFromBytes(coachSequenceData); err != nil {
+		b.Error(err.Error())
+	}
+}
+
+func TestRoundtrip(t *testing.T) {
 	for i := 0; i < 3; i++ {
 		var raw rawStations
 		folderName := "iris_station"
@@ -233,7 +255,7 @@ func BenchmarkRoundtrip(b *testing.B) {
 		output := fmt.Sprintf("%s/%s/%d", OutputFolder, folderName, i)
 		xmlInput(&raw, input)
 		data := parseStations(raw)
-		xmlOutput(&raw, &data, output)
+		xmlRoundtrip(&raw, &data, output)
 	}
 
 	for i := 0; i < 5; i++ {
@@ -243,7 +265,7 @@ func BenchmarkRoundtrip(b *testing.B) {
 		output := fmt.Sprintf("%s/%s/%d", OutputFolder, folderName, i)
 		xmlInput(&raw, input)
 		data := parseTimetable(raw)
-		xmlOutput(&raw, &data, output)
+		xmlRoundtrip(&raw, &data, output)
 	}
 
 	for i := 0; i < 5; i++ {
@@ -253,7 +275,7 @@ func BenchmarkRoundtrip(b *testing.B) {
 		output := fmt.Sprintf("%s/%s/%d", OutputFolder, folderName, i)
 		xmlInput(&raw, input)
 		data := parseTimetable(raw)
-		xmlOutput(&raw, &data, output)
+		xmlRoundtrip(&raw, &data, output)
 	}
 
 	for i := 0; i < 3; i++ {
@@ -263,7 +285,7 @@ func BenchmarkRoundtrip(b *testing.B) {
 		output := fmt.Sprintf("%s/%s/%d", OutputFolder, folderName, i)
 		xmlInput(&raw, input)
 		data := parseWingDefinition(raw)
-		xmlOutput(&raw, &data, output)
+		xmlRoundtrip(&raw, &data, output)
 	}
 
 	for i := 0; i < 227; i++ {
@@ -273,6 +295,22 @@ func BenchmarkRoundtrip(b *testing.B) {
 		output := fmt.Sprintf("%s/%s/%d", OutputFolder, folderName, i)
 		jsonInput(&raw, input)
 		data := parseCoachSequence(raw)
+		jsonRoundtrip(&raw, &data, output)
+	}
+
+	for i := 0; i < 25; i++ {
+		var raw []HafasMessage
+		folderName := "hafas_messages"
+		input := fmt.Sprintf("%s/%s/%d.html", InputFolder, folderName, i)
+		output := fmt.Sprintf("%s/%s/%d", OutputFolder, folderName, i)
+		f, err := os.Open(input)
+		if err != nil {
+			panic(err)
+		}
+		data, err := HafasMessagesFromReader(f)
+		if err != nil {
+			panic(err)
+		}
 		jsonOutput(&raw, &data, output)
 	}
 }

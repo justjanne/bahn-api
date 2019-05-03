@@ -20,12 +20,12 @@ type ApiClient struct {
 func (c *ApiClient) Station(evaId int64) ([]Station, error) {
 	var err error
 
-	url := fmt.Sprintf("%s/timetable/station/%d", c.IrisBaseUrl, evaId)
+	uri := fmt.Sprintf("%s/timetable/station/%d", c.IrisBaseUrl, evaId)
 
 	var stations []Station
 
 	var response *http.Response
-	if response, err = c.HttpClient.Get(url); err != nil {
+	if response, err = c.HttpClient.Get(uri); err != nil {
 		return stations, err
 	}
 
@@ -44,12 +44,12 @@ func (c *ApiClient) Timetable(evaId int64, date time.Time) (Timetable, error) {
 	var err error
 
 	BahnFormat := "060102/15"
-	url := fmt.Sprintf("%s/timetable/plan/%d/%s", c.IrisBaseUrl, evaId, date.Format(BahnFormat))
+	uri := fmt.Sprintf("%s/timetable/plan/%d/%s", c.IrisBaseUrl, evaId, date.Format(BahnFormat))
 
 	var timetable Timetable
 
 	var response *http.Response
-	if response, err = c.HttpClient.Get(url); err != nil {
+	if response, err = c.HttpClient.Get(uri); err != nil {
 		return timetable, err
 	}
 
@@ -193,4 +193,28 @@ func (c *ApiClient) Suggestions(line string, date time.Time) ([]Suggestion, erro
 	}
 
 	return suggestions, err
+}
+
+func (c *ApiClient) HafasMessages(trainlink string) ([]HafasMessage, error) {
+	var err error
+
+	uri := fmt.Sprintf("%s/traininfo.exe/dn/%s?rt=1&ajax=1", c.HafasBaseUrl, trainlink)
+
+	var messages []HafasMessage
+	request, err := http.NewRequest("GET", uri, nil)
+
+	var response *http.Response
+	if response, err = c.HttpClient.Do(request); err != nil {
+		return messages, err
+	}
+
+	if messages, err = HafasMessagesFromReader(response.Body); err != nil {
+		return messages, err
+	}
+
+	if err = response.Body.Close(); err != nil {
+		return messages, err
+	}
+
+	return messages, err
 }
