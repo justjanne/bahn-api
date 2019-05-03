@@ -2,6 +2,8 @@ package bahn
 
 import (
 	"fmt"
+	"golang.org/x/net/html/charset"
+	"io"
 	"io/ioutil"
 	"net/http"
 	"strings"
@@ -176,8 +178,13 @@ func (c *ApiClient) Suggestions(line string, date time.Time) ([]Suggestion, erro
 		return suggestions, err
 	}
 
+	var utf8reader io.Reader
+	if utf8reader, err = charset.NewReader(response.Body, response.Header.Get("Content-Type")); err != nil {
+		return suggestions, nil
+	}
+
 	var content []byte
-	if content, err = ioutil.ReadAll(response.Body); err != nil {
+	if content, err = ioutil.ReadAll(utf8reader); err != nil {
 		return suggestions, err
 	}
 	strippedContent := string(content)
