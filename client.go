@@ -179,7 +179,7 @@ func (c *ApiClient) Suggestions(line string, date time.Time) ([]Suggestion, erro
 	}
 
 	var utf8reader io.Reader
-	if utf8reader, err = charset.NewReader(response.Body, response.Header.Get("Content-Type")); err != nil {
+	if utf8reader, err = charset.NewReaderLabel("ISO 8859-1", response.Body); err != nil {
 		return suggestions, nil
 	}
 
