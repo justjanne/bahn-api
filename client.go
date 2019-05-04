@@ -2,7 +2,7 @@ package bahn
 
 import (
 	"fmt"
-	"github.com/google/logger"
+	"github.com/golang/glog"
 	"golang.org/x/net/html/charset"
 	"io"
 	"io/ioutil"
@@ -49,7 +49,7 @@ func (c *ApiClient) Station(evaId int64) ([]Station, error) {
 func (c *ApiClient) loadStation(evaId int64) ([]Station, error) {
 	var err error
 	uri := fmt.Sprintf("%s/timetable/station/%d", c.IrisBaseUrl, evaId)
-	logger.Infof("Loading Station %d", evaId)
+	glog.Infof("Loading Station %d", evaId)
 
 	var stations []Station
 
@@ -98,7 +98,7 @@ func (c *ApiClient) loadTimetable(evaId int64, date time.Time) (Timetable, error
 
 	BahnFormat := "060102/15"
 	uri := fmt.Sprintf("%s/timetable/plan/%d/%s", c.IrisBaseUrl, evaId, date.Format(BahnFormat))
-	logger.Infof("Loading Timetable %d %s", evaId, date.Format(time.RFC3339))
+	glog.Infof("Loading Timetable %d %s", evaId, date.Format(time.RFC3339))
 
 	var timetable Timetable
 
@@ -146,7 +146,7 @@ func (c *ApiClient) loadRealtimeAll(evaId int64, date time.Time) (Timetable, err
 	var err error
 
 	uri := fmt.Sprintf("%s/timetable/fchg/%d", c.IrisBaseUrl, evaId)
-	logger.Infof("Loading RealtimeAll %d %s", evaId, date.Format(time.RFC3339))
+	glog.Infof("Loading RealtimeAll %d %s", evaId, date.Format(time.RFC3339))
 
 	var timetable Timetable
 
@@ -194,7 +194,7 @@ func (c *ApiClient) loadRealtimeRecent(evaId int64, date time.Time) (Timetable, 
 	var err error
 
 	uri := fmt.Sprintf("%s/timetable/rchg/%d", c.IrisBaseUrl, evaId)
-	logger.Infof("Loading RealtimeRecent %d %s", evaId, date.Format(time.RFC3339))
+	glog.Infof("Loading RealtimeRecent %d %s", evaId, date.Format(time.RFC3339))
 
 	var timetable Timetable
 
@@ -242,7 +242,7 @@ func (c *ApiClient) loadWingDefinition(parent string, wing string) (WingDefiniti
 	var err error
 
 	uri := fmt.Sprintf("%s/timetable/wingdef/%s/%s", c.IrisBaseUrl, parent, wing)
-	logger.Infof("Loading WingDefinition %s %s", parent, wing)
+	glog.Infof("Loading WingDefinition %s %s", parent, wing)
 
 	var wingDefinition WingDefinition
 
@@ -290,7 +290,7 @@ func (c *ApiClient) loadCoachSequence(line string, date time.Time) (CoachSequenc
 	var err error
 
 	uri := fmt.Sprintf("%s/%s/%s", c.CoachSequenceBaseUrl, line, date.Format(TimeLayoutShort))
-	logger.Infof("Loading CoachSequence %s %s", line, date.Format(time.RFC3339))
+	glog.Infof("Loading CoachSequence %s %s", line, date.Format(time.RFC3339))
 
 	var coachSequence CoachSequence
 
@@ -338,7 +338,7 @@ func (c *ApiClient) loadSuggestions(line string, date time.Time) ([]Suggestion, 
 	var err error
 
 	uri := fmt.Sprintf("%s/trainsearch.exe/dn", c.HafasBaseUrl)
-	logger.Infof("Loading Suggestions %s %s", line, date.Format(time.RFC3339))
+	glog.Infof("Loading Suggestions %s %s", line, date.Format(time.RFC3339))
 
 	var suggestions []Suggestion
 
@@ -407,7 +407,7 @@ func (c *ApiClient) loadHafasMessages(trainlink string) ([]HafasMessage, error) 
 	var err error
 
 	uri := fmt.Sprintf("%s/traininfo.exe/dn/%s?rt=1&ajax=1", c.HafasBaseUrl, trainlink)
-	logger.Infof("Loading HafasMessages %s", trainlink)
+	glog.Infof("Loading HafasMessages %s", trainlink)
 
 	var messages []HafasMessage
 	request, err := http.NewRequest("GET", uri, nil)
