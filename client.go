@@ -338,7 +338,7 @@ func (c *ApiClient) loadSuggestions(line string, date time.Time) ([]Suggestion, 
 	var err error
 
 	uri := fmt.Sprintf("%s/trainsearch.exe/dn", c.HafasBaseUrl)
-	logger.Infof("Loading CoachSequence %s %s", line, date.Format(time.RFC3339))
+	logger.Infof("Loading Suggestions %s %s", line, date.Format(time.RFC3339))
 
 	var suggestions []Suggestion
 
