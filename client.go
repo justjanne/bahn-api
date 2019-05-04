@@ -27,7 +27,7 @@ func (c *ApiClient) Station(evaId int64) ([]Station, error) {
 
 	var result []Station
 	for _, cache := range c.Caches {
-		if err := cache.Get(key, result); err == nil {
+		if err := cache.Get(key, &result); err == nil {
 			return result, nil
 		}
 	}
@@ -68,7 +68,7 @@ func (c *ApiClient) Timetable(evaId int64, date time.Time) (Timetable, error) {
 
 	var result Timetable
 	for _, cache := range c.Caches {
-		if err := cache.Get(key, result); err == nil {
+		if err := cache.Get(key, &result); err == nil {
 			return result, nil
 		}
 	}
@@ -110,7 +110,7 @@ func (c *ApiClient) RealtimeAll(evaId int64, date time.Time) (Timetable, error) 
 
 	var result Timetable
 	for _, cache := range c.Caches {
-		if err := cache.Get(key, result); err == nil {
+		if err := cache.Get(key, &result); err == nil {
 			return result, nil
 		}
 	}
@@ -151,7 +151,7 @@ func (c *ApiClient) RealtimeRecent(evaId int64, date time.Time) (Timetable, erro
 
 	var result Timetable
 	for _, cache := range c.Caches {
-		if err := cache.Get(key, result); err == nil {
+		if err := cache.Get(key, &result); err == nil {
 			return result, nil
 		}
 	}
@@ -192,7 +192,7 @@ func (c *ApiClient) WingDefinition(parent string, wing string) (WingDefinition, 
 
 	var result WingDefinition
 	for _, cache := range c.Caches {
-		if err := cache.Get(key, result); err == nil {
+		if err := cache.Get(key, &result); err == nil {
 			return result, nil
 		}
 	}
@@ -233,7 +233,7 @@ func (c *ApiClient) CoachSequence(line string, date time.Time) (CoachSequence, e
 
 	var result CoachSequence
 	for _, cache := range c.Caches {
-		if err := cache.Get(key, result); err == nil {
+		if err := cache.Get(key, &result); err == nil {
 			return result, nil
 		}
 	}
@@ -274,7 +274,7 @@ func (c *ApiClient) Suggestions(line string, date time.Time) ([]Suggestion, erro
 
 	var result []Suggestion
 	for _, cache := range c.Caches {
-		if err := cache.Get(key, result); err == nil {
+		if err := cache.Get(key, &result); err == nil {
 			return result, nil
 		}
 	}
@@ -336,7 +336,7 @@ func (c *ApiClient) HafasMessages(trainlink string) ([]HafasMessage, error) {
 
 	var result []HafasMessage
 	for _, cache := range c.Caches {
-		if err := cache.Get(key, result); err == nil {
+		if err := cache.Get(key, &result); err == nil {
 			return result, nil
 		}
 	}
