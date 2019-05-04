@@ -22,6 +22,7 @@ type ApiClient struct {
 }
 
 const cacheTimestamp = "2006-01-02T15:04"
+const cacheTimestampDate = "2006-01-02"
 
 func (c *ApiClient) Station(evaId int64) ([]Station, error) {
 	key := fmt.Sprintf("realtime_recent %d", evaId)
@@ -311,7 +312,7 @@ func (c *ApiClient) loadCoachSequence(line string, date time.Time) (CoachSequenc
 }
 
 func (c *ApiClient) Suggestions(line string, date time.Time) ([]Suggestion, error) {
-	key := fmt.Sprintf("suggestions %s %s", line, date.Format(cacheTimestamp))
+	key := fmt.Sprintf("suggestions %s %s", line, date.Format(cacheTimestampDate))
 
 	var result []Suggestion
 	for _, cache := range c.Caches {
