@@ -22,9 +22,9 @@ type ApiClient struct {
 
 const cacheTimestamp = "2006-01-02T15:04"
 
-func (c *ApiClient) loadWithCache(key string, result interface{}, load func(*interface{}) error) error {
+func (c *ApiClient) loadWithCache(key string, result interface{}, load func() (interface{}, error)) error {
 	for _, cache := range c.Caches {
-		if err := cache.Get(key, &result); err == nil {
+		if err := cache.Get(key, result); err == nil {
 			for _, targetCache := range c.Caches {
 				if targetCache == cache {
 					break
@@ -35,7 +35,7 @@ func (c *ApiClient) loadWithCache(key string, result interface{}, load func(*int
 		}
 	}
 	var err error
-	if err = load(&result); err == nil {
+	if result, err = load(); err == nil {
 		for _, cache := range c.Caches {
 			_ = cache.Set(key, result)
 		}
@@ -46,10 +46,8 @@ func (c *ApiClient) loadWithCache(key string, result interface{}, load func(*int
 func (c *ApiClient) Station(evaId int64) ([]Station, error) {
 	key := fmt.Sprintf("realtime_recent %d", evaId)
 	var result []Station
-	err := c.loadWithCache(key, &result, func(target *interface{}) error {
-		var err error
-		*target, err = c.loadStation(evaId)
-		return err
+	err := c.loadWithCache(key, &result, func() (interface{}, error) {
+		return c.loadStation(evaId)
 	})
 	return result, err
 }
@@ -81,10 +79,8 @@ func (c *ApiClient) Timetable(evaId int64, date time.Time) (Timetable, error) {
 	key := fmt.Sprintf("timetable %d %s", evaId, date.Format(cacheTimestamp))
 
 	var result Timetable
-	err := c.loadWithCache(key, &result, func(target *interface{}) error {
-		var err error
-		*target, err = c.loadTimetable(evaId, date)
-		return err
+	err := c.loadWithCache(key, &result, func() (interface{}, error) {
+		return c.loadTimetable(evaId, date)
 	})
 	return result, err
 }
@@ -117,10 +113,8 @@ func (c *ApiClient) RealtimeAll(evaId int64, date time.Time) (Timetable, error) 
 	key := fmt.Sprintf("realtime_all %d %s", evaId, date.Format(cacheTimestamp))
 
 	var result Timetable
-	err := c.loadWithCache(key, &result, func(target *interface{}) error {
-		var err error
-		*target, err = c.loadRealtimeAll(evaId, date)
-		return err
+	err := c.loadWithCache(key, &result, func() (interface{}, error) {
+		return c.loadRealtimeAll(evaId, date)
 	})
 	return result, err
 }
@@ -152,10 +146,8 @@ func (c *ApiClient) RealtimeRecent(evaId int64, date time.Time) (Timetable, erro
 	key := fmt.Sprintf("realtime_recent %d %s", evaId, date.Format(cacheTimestamp))
 
 	var result Timetable
-	err := c.loadWithCache(key, &result, func(target *interface{}) error {
-		var err error
-		*target, err = c.loadRealtimeRecent(evaId, date)
-		return err
+	err := c.loadWithCache(key, &result, func() (interface{}, error) {
+		return c.loadRealtimeRecent(evaId, date)
 	})
 	return result, err
 }
@@ -187,10 +179,8 @@ func (c *ApiClient) WingDefinition(parent string, wing string) (WingDefinition, 
 	key := fmt.Sprintf("wing_definition %s %s", parent, wing)
 
 	var result WingDefinition
-	err := c.loadWithCache(key, &result, func(target *interface{}) error {
-		var err error
-		*target, err = c.loadWingDefinition(parent, wing)
-		return err
+	err := c.loadWithCache(key, &result, func() (interface{}, error) {
+		return c.loadWingDefinition(parent, wing)
 	})
 	return result, err
 }
@@ -222,10 +212,8 @@ func (c *ApiClient) CoachSequence(line string, date time.Time) (CoachSequence, e
 	key := fmt.Sprintf("coach_sequence %s %s", line, date.Format(cacheTimestamp))
 
 	var result CoachSequence
-	err := c.loadWithCache(key, &result, func(target *interface{}) error {
-		var err error
-		*target, err = c.loadCoachSequence(line, date)
-		return err
+	err := c.loadWithCache(key, &result, func() (interface{}, error) {
+		return c.loadCoachSequence(line, date)
 	})
 	return result, err
 }
@@ -257,10 +245,8 @@ func (c *ApiClient) Suggestions(line string, date time.Time) ([]Suggestion, erro
 	key := fmt.Sprintf("suggestions %s %s", line, date.Format(cacheTimestamp))
 
 	var result []Suggestion
-	err := c.loadWithCache(key, &result, func(target *interface{}) error {
-		var err error
-		*target, err = c.loadSuggestions(line, date)
-		return err
+	err := c.loadWithCache(key, &result, func() (interface{}, error) {
+		return c.loadSuggestions(line, date)
 	})
 	return result, err
 }
@@ -313,10 +299,8 @@ func (c *ApiClient) HafasMessages(trainlink string) ([]HafasMessage, error) {
 	key := fmt.Sprintf("hafas_messages %s", trainlink)
 
 	var result []HafasMessage
-	err := c.loadWithCache(key, &result, func(target *interface{}) error {
-		var err error
-		*target, err = c.loadHafasMessages(trainlink)
-		return err
+	err := c.loadWithCache(key, &result, func() (interface{}, error) {
+		return c.loadHafasMessages(trainlink)
 	})
 	return result, err
 }
