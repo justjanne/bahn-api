@@ -17,9 +17,28 @@ type ApiClient struct {
 	CoachSequenceBaseUrl string
 	HafasBaseUrl         string
 	HttpClient           *http.Client
+	Caches               []CacheBackend
 }
 
 func (c *ApiClient) Station(evaId int64) ([]Station, error) {
+	key := fmt.Sprintf("realtime_recent %d", evaId)
+
+	var result []Station
+	for _, cache := range c.Caches {
+		if err := cache.Get(key, result); err == nil {
+			return result, nil
+		}
+	}
+	var err error
+	if result, err = c.loadStation(evaId); err == nil {
+		for _, cache := range c.Caches {
+			_ = cache.Set(key, result)
+		}
+	}
+	return result, err
+}
+
+func (c *ApiClient) loadStation(evaId int64) ([]Station, error) {
 	var err error
 
 	uri := fmt.Sprintf("%s/timetable/station/%d", c.IrisBaseUrl, evaId)
@@ -43,6 +62,24 @@ func (c *ApiClient) Station(evaId int64) ([]Station, error) {
 }
 
 func (c *ApiClient) Timetable(evaId int64, date time.Time) (Timetable, error) {
+	key := fmt.Sprintf("timetable %d %s", evaId, date)
+
+	var result Timetable
+	for _, cache := range c.Caches {
+		if err := cache.Get(key, result); err == nil {
+			return result, nil
+		}
+	}
+	var err error
+	if result, err = c.loadTimetable(evaId, date); err == nil {
+		for _, cache := range c.Caches {
+			_ = cache.Set(key, result)
+		}
+	}
+	return result, err
+}
+
+func (c *ApiClient) loadTimetable(evaId int64, date time.Time) (Timetable, error) {
 	var err error
 
 	BahnFormat := "060102/15"
@@ -67,6 +104,24 @@ func (c *ApiClient) Timetable(evaId int64, date time.Time) (Timetable, error) {
 }
 
 func (c *ApiClient) RealtimeAll(evaId int64, date time.Time) (Timetable, error) {
+	key := fmt.Sprintf("realtime_all %d %s", evaId, date)
+
+	var result Timetable
+	for _, cache := range c.Caches {
+		if err := cache.Get(key, result); err == nil {
+			return result, nil
+		}
+	}
+	var err error
+	if result, err = c.loadRealtimeAll(evaId, date); err == nil {
+		for _, cache := range c.Caches {
+			_ = cache.Set(key, result)
+		}
+	}
+	return result, err
+}
+
+func (c *ApiClient) loadRealtimeAll(evaId int64, date time.Time) (Timetable, error) {
 	var err error
 
 	uri := fmt.Sprintf("%s/timetable/fchg/%d", c.IrisBaseUrl, evaId)
@@ -90,6 +145,24 @@ func (c *ApiClient) RealtimeAll(evaId int64, date time.Time) (Timetable, error) 
 }
 
 func (c *ApiClient) RealtimeRecent(evaId int64, date time.Time) (Timetable, error) {
+	key := fmt.Sprintf("realtime_recent %d %s", evaId, date)
+
+	var result Timetable
+	for _, cache := range c.Caches {
+		if err := cache.Get(key, result); err == nil {
+			return result, nil
+		}
+	}
+	var err error
+	if result, err = c.loadRealtimeRecent(evaId, date); err == nil {
+		for _, cache := range c.Caches {
+			_ = cache.Set(key, result)
+		}
+	}
+	return result, err
+}
+
+func (c *ApiClient) loadRealtimeRecent(evaId int64, date time.Time) (Timetable, error) {
 	var err error
 
 	uri := fmt.Sprintf("%s/timetable/rchg/%d", c.IrisBaseUrl, evaId)
@@ -113,6 +186,24 @@ func (c *ApiClient) RealtimeRecent(evaId int64, date time.Time) (Timetable, erro
 }
 
 func (c *ApiClient) WingDefinition(parent string, wing string) (WingDefinition, error) {
+	key := fmt.Sprintf("wing_definition %s %s", parent, wing)
+
+	var result WingDefinition
+	for _, cache := range c.Caches {
+		if err := cache.Get(key, result); err == nil {
+			return result, nil
+		}
+	}
+	var err error
+	if result, err = c.loadWingDefinition(parent, wing); err == nil {
+		for _, cache := range c.Caches {
+			_ = cache.Set(key, result)
+		}
+	}
+	return result, err
+}
+
+func (c *ApiClient) loadWingDefinition(parent string, wing string) (WingDefinition, error) {
 	var err error
 
 	uri := fmt.Sprintf("%s/timetable/wingdef/%s/%s", c.IrisBaseUrl, parent, wing)
@@ -136,6 +227,24 @@ func (c *ApiClient) WingDefinition(parent string, wing string) (WingDefinition, 
 }
 
 func (c *ApiClient) CoachSequence(line string, date time.Time) (CoachSequence, error) {
+	key := fmt.Sprintf("coach_sequence %s %s", line, date.String())
+
+	var result CoachSequence
+	for _, cache := range c.Caches {
+		if err := cache.Get(key, result); err == nil {
+			return result, nil
+		}
+	}
+	var err error
+	if result, err = c.loadCoachSequence(line, date); err == nil {
+		for _, cache := range c.Caches {
+			_ = cache.Set(key, result)
+		}
+	}
+	return result, err
+}
+
+func (c *ApiClient) loadCoachSequence(line string, date time.Time) (CoachSequence, error) {
 	var err error
 
 	uri := fmt.Sprintf("%s/%s/%s", c.CoachSequenceBaseUrl, line, date.Format(TimeLayoutShort))
@@ -159,6 +268,24 @@ func (c *ApiClient) CoachSequence(line string, date time.Time) (CoachSequence, e
 }
 
 func (c *ApiClient) Suggestions(line string, date time.Time) ([]Suggestion, error) {
+	key := fmt.Sprintf("suggestions %s %s", line, date.String())
+
+	var result []Suggestion
+	for _, cache := range c.Caches {
+		if err := cache.Get(key, result); err == nil {
+			return result, nil
+		}
+	}
+	var err error
+	if result, err = c.loadSuggestions(line, date); err == nil {
+		for _, cache := range c.Caches {
+			_ = cache.Set(key, result)
+		}
+	}
+	return result, err
+}
+
+func (c *ApiClient) loadSuggestions(line string, date time.Time) ([]Suggestion, error) {
 	var err error
 
 	uri := fmt.Sprintf("%s/trainsearch.exe/dn", c.HafasBaseUrl)
@@ -203,6 +330,24 @@ func (c *ApiClient) Suggestions(line string, date time.Time) ([]Suggestion, erro
 }
 
 func (c *ApiClient) HafasMessages(trainlink string) ([]HafasMessage, error) {
+	key := fmt.Sprintf("hafas_messages %s", trainlink)
+
+	var result []HafasMessage
+	for _, cache := range c.Caches {
+		if err := cache.Get(key, result); err == nil {
+			return result, nil
+		}
+	}
+	var err error
+	if result, err = c.loadHafasMessages(trainlink); err == nil {
+		for _, cache := range c.Caches {
+			_ = cache.Set(key, result)
+		}
+	}
+	return result, err
+}
+
+func (c *ApiClient) loadHafasMessages(trainlink string) ([]HafasMessage, error) {
 	var err error
 
 	uri := fmt.Sprintf("%s/traininfo.exe/dn/%s?rt=1&ajax=1", c.HafasBaseUrl, trainlink)
