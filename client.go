@@ -20,6 +20,8 @@ type ApiClient struct {
 	Caches               []CacheBackend
 }
 
+const cacheTimestamp = "2006-01-02T15:04"
+
 func (c *ApiClient) Station(evaId int64) ([]Station, error) {
 	key := fmt.Sprintf("realtime_recent %d", evaId)
 
@@ -62,7 +64,7 @@ func (c *ApiClient) loadStation(evaId int64) ([]Station, error) {
 }
 
 func (c *ApiClient) Timetable(evaId int64, date time.Time) (Timetable, error) {
-	key := fmt.Sprintf("timetable %d %s", evaId, date.Format(time.Stamp))
+	key := fmt.Sprintf("timetable %d %s", evaId, date.Format(cacheTimestamp))
 
 	var result Timetable
 	for _, cache := range c.Caches {
@@ -104,7 +106,7 @@ func (c *ApiClient) loadTimetable(evaId int64, date time.Time) (Timetable, error
 }
 
 func (c *ApiClient) RealtimeAll(evaId int64, date time.Time) (Timetable, error) {
-	key := fmt.Sprintf("realtime_all %d %s", evaId, date.Format(time.Stamp))
+	key := fmt.Sprintf("realtime_all %d %s", evaId, date.Format(cacheTimestamp))
 
 	var result Timetable
 	for _, cache := range c.Caches {
@@ -145,7 +147,7 @@ func (c *ApiClient) loadRealtimeAll(evaId int64, date time.Time) (Timetable, err
 }
 
 func (c *ApiClient) RealtimeRecent(evaId int64, date time.Time) (Timetable, error) {
-	key := fmt.Sprintf("realtime_recent %d %s", evaId, date.Format(time.Stamp))
+	key := fmt.Sprintf("realtime_recent %d %s", evaId, date.Format(cacheTimestamp))
 
 	var result Timetable
 	for _, cache := range c.Caches {
@@ -227,7 +229,7 @@ func (c *ApiClient) loadWingDefinition(parent string, wing string) (WingDefiniti
 }
 
 func (c *ApiClient) CoachSequence(line string, date time.Time) (CoachSequence, error) {
-	key := fmt.Sprintf("coach_sequence %s %s", line, date.Format(time.Stamp))
+	key := fmt.Sprintf("coach_sequence %s %s", line, date.Format(cacheTimestamp))
 
 	var result CoachSequence
 	for _, cache := range c.Caches {
@@ -268,7 +270,7 @@ func (c *ApiClient) loadCoachSequence(line string, date time.Time) (CoachSequenc
 }
 
 func (c *ApiClient) Suggestions(line string, date time.Time) ([]Suggestion, error) {
-	key := fmt.Sprintf("suggestions %s %s", line, date.Format(time.Stamp))
+	key := fmt.Sprintf("suggestions %s %s", line, date.Format(cacheTimestamp))
 
 	var result []Suggestion
 	for _, cache := range c.Caches {
