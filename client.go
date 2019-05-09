@@ -290,7 +290,7 @@ func (c *ApiClient) CoachSequence(line string, date time.Time) (CoachSequence, e
 func (c *ApiClient) loadCoachSequence(line string, date time.Time) (CoachSequence, error) {
 	var err error
 
-	uri := fmt.Sprintf("%s/%s/%s", c.CoachSequenceBaseUrl, line, date.Format(TimeLayoutShort))
+	uri := fmt.Sprintf("%s/%s/%s", c.CoachSequenceBaseUrl, line, date.Format(TimeLayoutMediumShort))
 	glog.Infof("Loading CoachSequence %s %s", line, date.Format(time.RFC3339))
 
 	var coachSequence CoachSequence

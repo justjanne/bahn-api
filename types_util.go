@@ -105,6 +105,42 @@ func (t *timeShort) Value() *time.Time {
 	}
 }
 
+type timeMediumShort struct {
+	time.Time
+}
+
+const TimeLayoutMediumShort = "200601021504"
+
+func (t *timeMediumShort) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
+	if t == nil || t.IsZero() {
+		return xml.Attr{}, nil
+	} else {
+		return xml.Attr{
+			Name:  name,
+			Value: t.Format(TimeLayoutMediumShort),
+		}, nil
+	}
+}
+
+func (t *timeMediumShort) UnmarshalXMLAttr(attr xml.Attr) error {
+	if attr.Value != "" {
+		value, err := time.Parse(TimeLayoutMediumShort, attr.Value)
+		if err != nil {
+			return err
+		}
+		t.Time = value
+	}
+	return nil
+}
+
+func (t *timeMediumShort) Value() *time.Time {
+	if t != nil {
+		return &t.Time
+	} else {
+		return nil
+	}
+}
+
 type timeMedium struct {
 	time.Time
 }
