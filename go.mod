@@ -1,4 +1,4 @@
-module git.kuschku.de/justjanne/bahn-api
+module git.kuschku.de/justJanne/bahn-api
 
 go 1.12
 
